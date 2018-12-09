@@ -24,14 +24,14 @@ class Chromagram extends Transform {
     var sum = 0
     for(var i in this.testFrames) {
       var pc = this.pitchClasses[i]
-      chromagram[pc] = 0
+      chromagram[pc] = {pitchClass: pc, energy: 0}
       for(var bin=0; bin<this.numberOfBins; bin++)
-        chromagram[pc] += chunk[bin] * this.testFrames[i][bin]
-      sum += chromagram[pc]
+        chromagram[pc].energy += chunk[bin] * this.testFrames[i][bin]
+      sum += chromagram[pc].energy
     }
     for(var i in chromagram)
-      chromagram[i] /= sum
-    callback(null, chromagram)
+      chromagram[i].energy /= sum
+    callback(null, {chromas: chromagram})
   }
 }
 module.exports = Chromagram

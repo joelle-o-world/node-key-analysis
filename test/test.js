@@ -7,6 +7,8 @@ const SpectralMagnitudes = require("../src/SpectralMagnitudes.js")
 const OffsetWindowSpectrum = require("../src/OffsetWindowSpectrum.js")
 const Chromagram = require("../src/Chromagram.js")
 const MaxChroma = require("../src/MaxChroma.js")
+const AnalyseChromaData = require("../src/AnalyseChromaData")
+const printPitchClass = require("../src/printPitchClass.js")
 
 const argv = require("minimist")(process.argv.slice(2))
 
@@ -15,27 +17,21 @@ const audioFile = argv._[0] || "music/sine.wav"
 const {Writable} = require("stream")
 
 const FFTSize = 4096 * 4
+const pitchClasses = [0,1,2,3,4,5,6,7,8,9,10,11]
 
 var dest = new Writable({
   objectMode: true,
 })
-dest.totals = []
+dest.rootSums = {}
 dest._write = async function(chunk, encoding, callback) {
-  //console.log(chunk.map(n => (Math.round(n*100)+"%").padStart(5)).join(", "))
-  console.log(["C", "C#", "D", "Eb", "E", "F", "F#","G", "Ab", "A", "Bb", "B"][chunk])
-  for(var i in chunk)
-    this.totals[i] = (this.totals[i] || 0) + chunk[i]
+  if(chunk.root != undefined) {
+    var i = printPitchClass(chunk.root)
+    this.rootSums[i] = (this.rootSums[i] || 0)+1
+  }
+
   callback()
-  //setTimeout(callback, 1000)
 }
-dest.on("finish", function() {
-  var sum = 0
-  for(var i in this.totals)
-    sum += this.totals[i]
-  this.totals = this.totals.map(n => n/sum)
-  console.log("Average:")
-  console.log(this.totals.map(n => (Math.round(n*100)+"%").padStart(5)).join(", "))
-})
+
 
 var mixtomono = new MixToMono()
 var hopper1 = new Hopper(FFTSize, 441)
@@ -43,6 +39,7 @@ var windower1 = new Windower(FFTSize, "hamming")
 var windowOffset1 = new OffsetWindowSpectrum(FFTSize, "hamming")
 var fft1 = new FFT(FFTSize)
 
+var analysis = new AnalyseChromaData(pitchClasses)
 
 var mags = Decoder(audioFile)
   //.pipe(dest) /*
@@ -52,6 +49,6 @@ var mags = Decoder(audioFile)
   .pipe(fft1)
   //.pipe(windowOffset1)
   .pipe(new SpectralMagnitudes(FFTSize))
-  .pipe(new Chromagram([0,1,2,3,4,5,6,7,8,9,10,11], FFTSize, 44100))
-  .pipe(new MaxChroma)
+  .pipe(new Chromagram(pitchClasses, FFTSize, 44100))
+  .pipe(analysis)
   .pipe(dest)
