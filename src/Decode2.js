@@ -2,6 +2,7 @@ const ffmpeg = require("fluent-ffmpeg")
 const wav = require("wav")
 const {Transform} = require("stream")
 const ProgressBar = require("progress")
+const Promise = require("bluebird")
 
 function decode(file, progressReports) {
   var ffmpegCommand = ffmpeg(file)
@@ -44,6 +45,12 @@ function decode(file, progressReports) {
         lengthInSamples: buffer.length/FORMAT.channels,
       })
     }
+  })
+
+  objectify.sampleRate = new Promise((fulfil, reject) => {
+    wavDecoder.on('format', (format) => {
+      fulfil(format.sampleRate)
+    })
   })
 
   return ffmpegCommand.pipe(wavDecoder).pipe(objectify)

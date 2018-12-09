@@ -1,7 +1,7 @@
-const {Transform} = require("stream")
+const {Writable} = require("stream")
 const printPitchClass = require("./printPitchClass.js")
 
-class AnalyseChromaData extends Transform {
+class AnalyseChromaData extends Writable {
   constructor(pitchClasses) {
     super({objectMode:true})
     this.pitchClasses = pitchClasses || [0,1,2,3,4,5,6,7,8,9,10,11]
@@ -35,7 +35,7 @@ class AnalyseChromaData extends Transform {
     })
   }
 
-  _transform(chunk, encoding, callback) {
+  _write(chunk, encoding, callback) {
     var output = {}
 
     var ordered = chunk.chromas.sort((a, b) => {
@@ -50,13 +50,15 @@ class AnalyseChromaData extends Transform {
     this.loserTotals[loser]++
 
     if(ordered[0].energy > 0.15 && (ordered[1].pitchClass == fifth)) {
-      //console.log("found chord root:", printPitchClass(ordered[0].pitchClass))
+    //  console.log("found chord root:", printPitchClass(ordered[0].pitchClass))
     //  console.log(ordered.map(pc => printPitchClass(pc.pitchClass) + " " + Math.round(pc.energy*100) + "%"))
       output.root = ordered[0].pitchClass
       this.rootTotals[ordered[0].pitchClass]++
       this.rootOGram.push(printPitchClass(ordered[0].pitchClass))
     } else
       this.rootOGram.push("~")
+
+  //  console.log(this.rootOGram[this.rootOGram.length-1])
 
     callback(null, output)
   }
