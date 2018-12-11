@@ -1,8 +1,11 @@
 const {Transform} = require("stream")
 
 class Chromagram extends Transform {
-  constructor(pitchClasses, numberOfBins, sampleRate) {
+  constructor(pitchClasses, numberOfBins, sampleRate, nHarmonics, nOctaves) {
     super({objectMode: true})
+
+    nHarmonics = nHarmonics || 16
+    nOctaves = nOctaves || 6
 
     if(!sampleRate)
       throw "sample rate unknown"
@@ -12,7 +15,7 @@ class Chromagram extends Transform {
     this.sampleRate = sampleRate
 
     this.testFrames = this.pitchClasses.map(
-      pc => makeTestFrame(pc, numberOfBins, sampleRate)
+      pc => makeTestFrame(pc, numberOfBins, sampleRate, nHarmonics, nOctaves)
     )
   }
 
@@ -24,10 +27,13 @@ class Chromagram extends Transform {
     var sum = 0
     for(var i in this.testFrames) {
       var pc = this.pitchClasses[i]
-      chromagram[pc] = {pitchClass: pc, energy: 0}
-      for(var bin=0; bin<this.numberOfBins; bin++)
-        chromagram[pc].energy += chunk[bin] * this.testFrames[i][bin]
-      sum += chromagram[pc].energy
+      chromagram[pc] = {pitchClass: pc}
+      var energy = 0
+      var testFrame = this.testFrames[i]
+      for(var bin in testFrame)
+        energy += chunk[bin] * testFrame[bin]
+      sum += energy
+      chromagram[pc].energy = energy
     }
     for(var i in chromagram)
       chromagram[i].energy /= sum
@@ -49,18 +55,20 @@ function binPitchClasses(numberOfBins /* (windowSize) */, sampleRate) {
   return pc
 }
 
-function makeTestFrame(pitchClass, numberOfBins, sampleRate) {
-  var frame = new Float32Array(numberOfBins).fill(0)
+function makeTestFrame(pitchClass, numberOfBins, sampleRate, nHarmonics, nOctaves) {
+  nHarmonics = nHarmonics || 16
+  nOctaves = nOctaves || 6
+  var frame = {}//new Float32Array(numberOfBins).fill(0)
 
   var low = 55/4 * Math.pow(2, (pitchClass+3)/12)
-  for(var octave=0; octave<6; octave++) {
+  for(var octave=0; octave<nOctaves; octave++) {
     var f = low * Math.pow(2, octave)
 
     var h = 0.5
-    for(var harmonic=1; harmonic<16; harmonic++) {
+    for(var harmonic=1; harmonic<nHarmonics; harmonic++) {
       var ammount = Math.pow(h, harmonic-1)
       try {
-        incrementFrequency(frame, f*(harmonic+1), ammount, sampleRate)
+        incrementFrequency(frame, f*(harmonic+1), ammount, numberOfBins, sampleRate)
       } catch(e) {
         console.log("f:", f, "h:", harmonic, "octave: ", octave)
         throw e
@@ -72,12 +80,12 @@ function makeTestFrame(pitchClass, numberOfBins, sampleRate) {
 }
 Chromagram.makeTestFrame = makeTestFrame
 
-function incrementFrequency(frame, f, ammount, sampleRate) {
-  var bin = Math.round(f / (sampleRate/2/frame.length))
+function incrementFrequency(frame, f, ammount, numberOfBins, sampleRate) {
+  var bin = Math.round(f / (sampleRate/2/numberOfBins))
   //frame[Math.floor(bin)] += ammount * (1-bin%1)
   //frame[Math.ceil(bin)] += ammount * (bin%1)
   if(bin >= frame.length)
     throw "Trying to increment a frequency not present in the frame: " + f+"Hz"
-  frame[bin] += ammount
+  frame[bin] = (frame[bin] || 0) + ammount
 
 }
