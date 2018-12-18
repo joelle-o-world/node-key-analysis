@@ -1,12 +1,12 @@
 const fs = require("fs").promises
 const oldFs = require("fs")
 const path = require('path')
-const estimateKey = require("./src/estimateKey.js")
+const estimateKey = require("./src/estimateKey2.js")
 const argv = require("minimist")(process.argv.slice(2))
 
 async function measurePerformance(examples) {
   if(!examples)
-    examples = JSON.parse(await fs.readFile("./exampleData2.json"))
+    examples = JSON.parse(await fs.readFile("./exampleData3.json"))
 
   examples = examples.filter(function(example) {
     if(!example.file) {
@@ -50,6 +50,7 @@ async function measurePerformance(examples) {
     var trackReport = {
       file: file,
       correctRoot: examples[i].root,
+      correctMode: examples[i].mode,
     }
 
     try {
@@ -58,18 +59,21 @@ async function measurePerformance(examples) {
       fs.writeFile(file + ".rootOgram.txt", result.rootOGram)
 
       trackReport.estimatedRoot = key
-      trackReport.estimate2 = result.estimate2
+      trackReport.estimatedMode = result.mode
+      if(result.estimate2)
+        trackReport.estimate2 = result.estimate2
       //trackReport.rootTotals = result.rootTotals
       //trackReport.pitchClassTotals = result.pitchClassTotals
       //trackReport.minima = result.loserTotals
       trackReport.correct = key == examples[i].root
-      trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
+      if(result.rootFoundDensity)
+        trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
       if(trackReport.correct)
         report.nCorrect++
       else
         report.nIncorrect++
     } catch(e) {
-      console.log(file, "error")
+      console.log("\n", file, "error", e)
       trackReport.error = e
       report.nError++
       report.errors.push(e)

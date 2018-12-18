@@ -54,6 +54,7 @@ async function estimateKey(options) {
 
       fulfil({
         key: bestGuess,
+        scaleID: bestGuess,
         estimate2: estimate2,
         rootTotals: this.rootTotals,
         rootOGram: this.rootOGram.join(""),

@@ -2,74 +2,87 @@
   {
     "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
     "root": 11,
-    "comment": "basically atonal"
+    "comment": "basically atonal",
+    "checked": true
   },
   {
     "file": "./music/Zulu_Vortex_Original_Mix.mp3",
     "root": 10,
-    "comment": "basically atonal"
+    "comment": "basically atonal",
+    "checked": true
   },
   {
     "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
     "root": 9,
     "mode": "minor",
-    "comment": "clearly in A minor"
+    "comment": "clearly in A minor",
+    "checked": true
   },
   {
     "file": "./music/Wax - No. 30003 (B).mp3",
     "root": 2,
     "mode": "minor",
-    "comment": "more implied than anything. Maybe in phrygian mode"
+    "comment": "more implied than anything. Maybe in phrygian mode",
+    "checked": true
   },
   {
     "file": "./music/Wata Igarashi - Junctions Mp3.mp3",
     "root": 2,
-    "mode": "minor"
+    "mode": "minor",
+    "checked": true
   },
   {
     "file": "./music/Valerie Dore - Get Closer (Tiger & Woods Remix).mp3",
     "root": 5,
     "mode": "minor",
-    "comment": "at points possibly in the relative major Db"
+    "comment": "at points possibly in the relative major Db",
+    "checked": true
   },
   {
     "file": "./music/Todd Terje - Inspector Norse.mp3",
     "root": 5,
     "mode": "major",
-    "comment": "cyclic rather than tonal. But F is the main triad"
+    "comment": "cyclic rather than tonal. But F is the main triad",
+    "checked": true
   },
   {
     "file": "./music/Thora Vukk.mp3",
     "root": 4,
     "mode": "major",
-    "comment": "I don't expect the algorithm to succeed here. This track revolves is built arround harmonic tension and only resolves on E in very delicate treble pads."
+    "comment": "I don't expect the algorithm to succeed here. This track revolves is built arround harmonic tension and only resolves on E in very delicate treble pads.",
+    "checked": true
   },
   {
     "file": "./music/Theme From It's All Gone Pear Shaped (1994).mp3",
     "root": 10,
     "mode": "minor",
-    "comment": "tonally ambiguous, but Bb is my best guess"
+    "comment": "tonally ambiguous, but Bb is my best guess",
+    "checked": true
   },
   {
     "file": "./music/Tell You No Lie [M-PLANT].mp3",
     "root": 2,
     "mode": "minor",
-    "comment": "verses in Dm, Riff in F major"
+    "comment": "verses in Dm, Riff in F major",
+    "checked": true
   },
   {
     "file": "./music/Sweet Female Attitude - Flowers.mp3",
     "root": 3,
-    "mode": "major"
+    "mode": "major",
+    "checked": true
   },
   {
     "file": "./music/Stranger Thing - C418.mp3",
     "root": 0,
-    "mode": "major"
+    "mode": "major",
+    "checked": true
   },
   {
     "file": "./music/Spencer Brown - Downpour.mp3",
     "root": 4,
-    "mode": "minor"
+    "mode": "minor",
+    "checked": true
   },
   {
     "file": "./music/Special Request - Brainstorm.mp3",
@@ -84,455 +97,7 @@
   {
     "file": "./music/Sleep D - Bush Snake.mp3",
     "root": 5,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Using Famous Voices \nS3A",
-    "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famouse Voices (The Ravis Version).wav",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The Georges \nS3A",
-    "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
-    "root": 0,
-    "mode": "major"
-  },
-  {
-    "trackName": "Valenticam Outro \nS3A",
-    "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
-    "root": 5,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The 4th \nS3A",
-    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th.wav",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Seekin' Sunshine \nS3A",
-    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The First Year \nS3A",
-    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
-    "root": 1,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Looping Strings \nS3A",
-    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
-    "root": 3,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Passing Me By\nMella Dee",
-    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
-    "root": 8,
-    "mode": "major"
-  },
-  {
-    "trackName": "Out Of Love\nMella Dee",
-    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
-    "root": 3,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Club Vibe\nMella Dee",
-    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
-    "root": 6,
-    "mode": "major"
-  },
-  {
-    "trackName": "Exactly Mate\nMella Dee",
-    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Bloom\nDOKA",
-    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 02 Doka - Bloom.wav",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Harmony\nDOKA",
-    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 01 Doka - Harmony.wav",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Uncertain\nDOKA",
-    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 03 Doka - Uncertain.wav",
-    "root": 0,
-    "mode": "major"
-  },
-  {
-    "trackName": "Holy Grail\nKlartraum",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Bell Birds Dub\nKlartraum",
-    "root": 2,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Moogly\nKlartraum",
-    "root": 1,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Bill Bill\nKlartraum",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Holy Grail\nKlartraum",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Mass Effect\nKlartraum",
-    "root": 2,
-    "mode": "major"
-  },
-  {
-    "trackName": "Grinsekatze\n\tKlartraum, Patrick Chardronnet",
-    "root": 7,
-    "mode": "major"
-  },
-  {
-    "trackName": "Atlantis\nKlartraum",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Grinsekatze\nKlartraum",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Mazuya Romance\nM.ono",
-    "root": 10,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Sweet Paranoia\nM.ono",
-    "root": 10,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Cognacschwenker\nM.ono",
-    "root": 2,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The Hidden Track\nM.ono",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "Composite\nLavvy Levan",
-    "root": 0,
-    "mode": "major"
-  },
-  {
-    "trackName": "Monster\nLavvy Levan",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Rock Hard Boogie\nLavvy Levan",
-    "root": 4,
-    "mode": "major"
-  },
-  {
-    "trackName": "Get Up In My Bones\nLavvy Levan",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Empress\nLavvy Levan",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Androgyne\nChloé Thévenin",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "The Backlash\nChloé Thévenin",
-    "root": 0,
-    "mode": "major"
-  },
-  {
-    "trackName": "The Dawn\nChloé Thévenin",
-    "root": 2,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The Dawn\nChloé Thévenin",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Cloud Complex\n\tRob Clouth, Max Cooper",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Sifting Through The Static\nRob Clouth",
-    "root": 10,
-    "mode": "major"
-  },
-  {
-    "trackName": "Cloud Complex\nRob Clouth",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Falling Stones\n\tRob Clouth, Mononoid",
-    "root": 2,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Bubble Chamber\nRob Clouth",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "The Bridge And The Lights\nRob Clouth",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Bubble Chamber\n\tRob Clouth, Microtrauma",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "Falling Stones\nRob Clouth",
-    "root": 10,
-    "mode": "major"
-  },
-  {
-    "trackName": "Vivid Dreams\nFrancois X",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Persistence Hunting\nFrancois X",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Time\nFrancois X",
-    "root": 1,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Unicorn Paranoia\nFrancois X",
-    "root": 0,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Sais \n\tQB Smith, Keorapetse Kolwane",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Afro\nEddie Ness",
-    "root": 6,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Ombré\n\tEddie Ness, Borrowed Identity",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Ombré\nEddie Ness",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Menjou\nEddie Ness",
-    "root": 10,
-    "mode": "minor"
-  },
-  {
-    "trackName": "U Timmi\nJohan Kaseta",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "Lei Tindissima\nJohan Kaseta",
-    "root": 8,
-    "mode": "minor"
-  },
-  {
-    "trackName": "No Same Time\nJohan Kaseta",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Erefora Steps\nJohan Kaseta",
-    "root": 7,
-    "mode": "major"
-  },
-  {
-    "trackName": "Needle & Thread\nObjekt",
-    "root": 8,
-    "mode": "major"
-  },
-  {
-    "trackName": "Theme From Q\nObjekt",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "The Room is Dark and Gloomy\nVoiski",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Texture Poem for the Moons of Stars\nVoiski",
-    "root": 0,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Angry Beside the Trees\nVoiski",
-    "root": 9,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Glass Effect\nVoiski",
-    "root": 4,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Blue Flag\nVoiski",
-    "root": 7,
-    "mode": "major"
-  },
-  {
-    "trackName": "Bouncing in the Corner\nVoiski",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Entropic Landscape\nVoiski",
-    "root": 4,
-    "mode": "major"
-  },
-  {
-    "trackName": "Careless as a Palm\nVoiski",
-    "root": 2,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Karaoke Night\nVoiski",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "A Peaceful Day in Santa Fe\nVoiski",
-    "root": 0,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Family Drama at the SuperMarket\nVoiski",
-    "root": 5,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Megatrance 2\nVoiski",
-    "root": 0,
-    "mode": "major"
-  },
-  {
-    "trackName": "If I Was\nLouf",
-    "root": 5,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Outside My House\nLouf",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "Hear Me Out\nTom VR",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Indigo\nTom VR",
-    "root": 8,
-    "mode": "major"
-  },
-  {
-    "trackName": "Polarized Echoes\nDer Dritte Raum",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Effect Memory\nDer Dritte Raum",
-    "root": 3,
-    "mode": "major"
-  },
-  {
-    "trackName": "Realtime Club\nDer Dritte Raum",
-    "root": 8,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Grün\nDer Dritte Raum",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Blau\nDer Dritte Raum",
-    "root": 11,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Rot\nDer Dritte Raum",
-    "root": 2,
-    "mode": "major"
-  },
-  {
-    "trackName": "Reez\nBatu",
-    "root": 10,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Monolith\nBatu",
-    "root": 5,
-    "mode": "major"
-  },
-  {
-    "trackName": "Void\nBatu",
-    "root": 9,
-    "mode": "major"
-  },
-  {
-    "trackName": "Reez\n\tBatu, Lee Gamble",
-    "root": 7,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Cardinal\nBatu",
-    "root": 1,
-    "mode": "minor"
-  },
-  {
-    "trackName": "Domino Theory\nBatu",
-    "root": 2,
-    "mode": "minor"
+    "mode": "minor",
+    "checked": true
   }
 ]
