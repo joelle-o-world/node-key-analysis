@@ -1,0 +1,512 @@
+[
+
+  {
+    "trackName": "Using Famous Voices \nS3A",
+    "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+    "root": 0,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "The Georges \nS3A",
+    "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+    "root": 2,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Valenticam Outro \nS3A",
+    "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+    "root": 11,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "The 4th \nS3A",
+    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+    "root": 0,
+    "checked":true,
+    "mode": "minor",
+    "ambiguous": true,
+    "comment": "This is not really in one key, Cm7 Ebm7 Gbm7 Am7"
+  },
+  {
+    "trackName": "Seekin' Sunshine \nS3A",
+    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+    "root": 9,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "The First Year \nS3A",
+    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+    "root": 4,
+    "checked":true,
+    "ambiguous": true,
+    "mode": "minor",
+    "comment": "gradually changes speed half way through and mixes with another track"
+  },
+  {
+    "trackName": "Looping Strings \nS3A",
+    "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+    "root": 11,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Passing Me By\nMella Dee",
+    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+    "root": 8,
+    "checked":true,
+    "mode": "major"
+  },
+  {
+    "trackName": "Out Of Love\nMella Dee",
+    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+    "root": 3,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Club Vibe\nMella Dee",
+    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
+    "root": 8,
+    "checked":true,
+    "mode": "major"
+  },
+  {
+    "trackName": "Exactly Mate\nMella Dee",
+    "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
+    "root": 4,
+    "checked":true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Bloom\nDOKA",
+    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 02 Doka - Bloom.wav",
+    "root": 4,
+    "checked": true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Harmony\nDOKA",
+    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 01 Doka - Harmony.wav",
+    "root": 7,
+    "checked": true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Uncertain\nDOKA",
+    "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 03 Doka - Uncertain.wav",
+    "root": 0,
+    "checked": true,
+    "mode": "major"
+  },
+  {
+    "trackName": "Holy Grail\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 03 Holy Grail.wav",
+    "root": 9,
+    "checked": true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Bell Birds Dub\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 02 Bell Birds Dub.wav",
+    "root": 2,
+    "checked": true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Moogly\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 04 Moogly.wav",
+    "root": 1,
+    "checked": true,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Bill Bill\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 01 Bill Bill.wav",
+    "root": 9,
+    "mode": "minor",
+    "checked": true
+  },
+  {
+    "trackName": "Holy Grail\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 05 Holy Grail (Cinematic Mix).wav",
+    "root": 9,
+    "mode": "major",
+    "checked": true
+  },
+  {
+    "trackName": "Mass Effect\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 03 Mass Effect.wav",
+    "root": 2,
+    "mode": "major",
+    "checked": true
+  },
+  {
+    "trackName": "Grinsekatze\n\tKlartraum, Patrick Chardronnet",
+    "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 02 Grinsekatze (Patrick Chardronnet Remix).wav",
+    "root": 7,
+    "mode": "major",
+    "checked": true
+  },
+  {
+    "trackName": "Atlantis\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 04 Atlantis.wav",
+    "root": 11,
+    "mode": "minor",
+    "checked": true
+  },
+  {
+    "trackName": "Grinsekatze\nKlartraum",
+    "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 01 Grinsekatze.wav",
+    "root": 9,
+    "mode": "minor",
+    "checked": true
+  },
+  {
+    "trackName": "Mazuya Romance\nM.ono",
+    "file": "./music/miles/M.ono/M.ono - -THE ROYAL JUICE CUTS No. 01- Rose Records 11 - 04 Mazuya Romance.wav",
+    "root": 10,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Sweet Paranoia\nM.ono",
+    "file": "./music/miles/M.ono/M.ono - -THE ROYAL JUICE CUTS No. 01- Rose Records 11 - 01 Sweet Paranoia.wav",
+    "root": 10,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Cognacschwenker\nM.ono",
+    "file": "./music/miles/M.ono/M.ono - -THE ROYAL JUICE CUTS No. 01- Rose Records 11 - 03 Cognacschwenker.wav",
+    "root": 2,
+    "mode": "minor"
+  },
+  {
+    "trackName": "The Hidden Track\nM.ono",
+    "file": "./music/miles/M.ono/M.ono - -THE ROYAL JUICE CUTS No. 01- Rose Records 11 - 02 The Hidden Track.wav",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "Composite\nLavvy Levan",
+    "file": "./music/miles/Lavvy Levan/Lavvy Levan - Rock Hard Boogie EP - 04 Composite.wav",
+    "root": 0,
+    "mode": "major"
+  },
+  {
+    "trackName": "Monster\nLavvy Levan",
+    "file": "./music/miles/Lavvy Levan/Lavvy Levan - Rock Hard Boogie EP - 03 Monster.wav",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Rock Hard Boogie\nLavvy Levan",
+    "file": "./music/miles/Lavvy Levan/Lavvy Levan - Rock Hard Boogie EP - 01 Rock Hard Boogie.wav",
+    "root": 4,
+    "mode": "major"
+  },
+  {
+    "trackName": "Get Up In My Bones\nLavvy Levan",
+    "file": "./music/miles/Lavvy Levan/Lavvy Levan - Rock Hard Boogie EP - 02 Get Up In My Bones.wav",
+    "root": 4,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Empress\nLavvy Levan",
+    "file": "./music/miles/Lavvy Levan/Lavvy Levan - Rock Hard Boogie EP - 05 Empress.wav",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "Androgyne\nChloé Thévenin",
+    "file": "./music/miles/Chloe/Chloé Thévenin - Androgyne.wav",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "The Backlash\nChloé Thévenin",
+    "file": "./music/miles/Chloe/Chloé Thévenin - The Backlash.wav",
+    "root": 0,
+    "mode": "major"
+  },
+  {
+    "trackName": "Cloud Complex\n\tRob Clouth, Max Cooper",
+    "file": "./music/miles/Rob Clouth/3928963_Cloud_Complex_Max_Cooper_Remix.wav",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Sifting Through The Static\nRob Clouth",
+    "file": "./music/miles/Rob Clouth/3928969_Sifting_Through_Static_Original_Mix.wav",
+    "root": 10,
+    "mode": "major"
+  },
+  {
+    "trackName": "Cloud Complex\nRob Clouth",
+    "file": "./music/miles/Rob Clouth/3928964_Cloud_Complex_Original_Mix.wav",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Falling Stones\n\tRob Clouth, Mononoid",
+    "file": "./music/miles/Rob Clouth/3928967_Falling_Stones_Mononoid_Remix.wav",
+    "root": 2,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Bubble Chamber\nRob Clouth",
+    "file": "./music/miles/Rob Clouth/3928966_Bubble_Chamber_Original_Mix.wav",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "The Bridge And The Lights\nRob Clouth",
+    "file": "./music/miles/Rob Clouth/3928962_The_Bridge_And_The_Lights_Original_Mix.wav",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Bubble Chamber\n\tRob Clouth, Microtrauma",
+    "file": "./music/miles/Rob Clouth/3928965_Bubble_Chamber_Microtrauma_Remix.wav",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "Falling Stones\nRob Clouth",
+    "file": "./music/miles/Rob Clouth/3928968_Falling_Stones_Original_Mix.wav",
+    "root": 10,
+    "mode": "major"
+  },
+  {
+    "trackName": "Vivid Dreams\nFrancois X",
+    "file": "./music/miles/Francois X/Francois X - Unicorn Paranoia - 04 Vivid Dreams.wav",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Persistence Hunting\nFrancois X",
+    "file": "./music/miles/Francois X/Francois X - Unicorn Paranoia - 03 Persistence Hunting.wav",
+    "root": 4,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Time\nFrancois X",
+    "file": "./music/miles/Francois X/Francois X - Unicorn Paranoia - 01 Time.wav",
+    "root": 1,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Unicorn Paranoia\nFrancois X",
+    "file": "./music/miles/Francois X/Francois X - Unicorn Paranoia - 02 Unicorn Paranoia.wav",
+    "root": 0,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Sais \n\tQB Smith, Keorapetse Kolwane",
+    "file": "./music/miles/QB Smith - Sais (Egypt).wav",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Afro\nEddie Ness",
+    "file": "./music/miles/Eddie Ness/Eddie Ness - LHLT004 Afro - 03 Afro.wav",
+    "root": 6,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Ombré\n\tEddie Ness, Borrowed Identity",
+    "file": "./music/miles/Eddie Ness/Eddie Ness - LHLT004 Afro - 02 Ombré (Borrowed Identity Remix).wav",
+    "root": 11,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Ombré\nEddie Ness",
+    "file": "./music/miles/Eddie Ness/Eddie Ness - LHLT004 Afro - 01 Ombré.wav",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Menjou\nEddie Ness",
+    "file": "./music/miles/Eddie Ness/Eddie Ness - LHLT004 Afro - 04 Menjou.wav",
+    "root": 10,
+    "mode": "minor"
+  },
+  {
+    "trackName": "U Timmi\nJohan Kaseta",
+    "file": "./music/miles/Johan Kaseta/Johan Kaseta - LHLT008 The Erefora Land - 03 U Timmi.wav",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "Lei Tindissima\nJohan Kaseta",
+    "file": "./music/miles/Johan Kaseta/Johan Kaseta - LHLT008 The Erefora Land - 01 Lei Tindissima.wav",
+    "root": 8,
+    "mode": "minor"
+  },
+  {
+    "trackName": "No Same Time\nJohan Kaseta",
+    "file": "./music/miles/Johan Kaseta/Johan Kaseta - LHLT008 The Erefora Land - 04 No Same Time.wav",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "Erefora Steps\nJohan Kaseta",
+    "file": "./music/miles/Johan Kaseta/Johan Kaseta - LHLT008 The Erefora Land - 02 Erefora Steps.wav",
+    "root": 7,
+    "mode": "major"
+  },
+  {
+    "trackName": "Needle & Thread\nObjekt",
+    "file": "./music/miles/Objekt/Objekt - Objekt #4 - 01 Needle _ Thread.wav",
+    "root": 8,
+    "mode": "major"
+  },
+  {
+    "trackName": "Theme From Q\nObjekt",
+    "file": "./music/miles/Objekt/Objekt - Objekt #4 - 02 Theme From Q.wav",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "The Room is Dark and Gloomy\nVoiski",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Texture Poem for the Moons of Stars\nVoiski",
+    "root": 0,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Angry Beside the Trees\nVoiski",
+    "root": 9,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Glass Effect\nVoiski",
+    "root": 4,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Blue Flag\nVoiski",
+    "root": 7,
+    "mode": "major"
+  },
+  {
+    "trackName": "Bouncing in the Corner\nVoiski",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "Entropic Landscape\nVoiski",
+    "root": 4,
+    "mode": "major"
+  },
+  {
+    "trackName": "Careless as a Palm\nVoiski",
+    "root": 2,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Karaoke Night\nVoiski",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "A Peaceful Day in Santa Fe\nVoiski",
+    "root": 0,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Family Drama at the SuperMarket\nVoiski",
+    "root": 5,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Megatrance 2\nVoiski",
+    "root": 0,
+    "mode": "major"
+  },
+  {
+    "trackName": "If I Was\nLouf",
+    "root": 5,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Outside My House\nLouf",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "Hear Me Out\nTom VR",
+    "root": 11,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Indigo\nTom VR",
+    "root": 8,
+    "mode": "major"
+  },
+  {
+    "trackName": "Polarized Echoes\nDer Dritte Raum",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Effect Memory\nDer Dritte Raum",
+    "root": 3,
+    "mode": "major"
+  },
+  {
+    "trackName": "Realtime Club\nDer Dritte Raum",
+    "root": 8,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Grün\nDer Dritte Raum",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "Blau\nDer Dritte Raum",
+    "root": 11,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Rot\nDer Dritte Raum",
+    "root": 2,
+    "mode": "major"
+  },
+  {
+    "trackName": "Reez\nBatu",
+    "root": 10,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Monolith\nBatu",
+    "root": 5,
+    "mode": "major"
+  },
+  {
+    "trackName": "Void\nBatu",
+    "root": 9,
+    "mode": "major"
+  },
+  {
+    "trackName": "Reez\n\tBatu, Lee Gamble",
+    "root": 7,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Cardinal\nBatu",
+    "root": 1,
+    "mode": "minor"
+  },
+  {
+    "trackName": "Domino Theory\nBatu",
+    "root": 2,
+    "mode": "minor"
+  }
+]

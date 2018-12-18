@@ -1,0 +1,222 @@
+{
+    "date": "12/13/2018, 3:56:10 PM",
+    "nCorrect": 8,
+    "nIncorrect": 15,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.34782608695652173,
+    "percentSuccessRate": "34.78%",
+    "totalProcessTime": 612.359,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "estimatedRoot": "0",
+            "estimate2": "1",
+            "correct": true,
+            "rootFoundDensity": "2.14%",
+            "processTime": 28.298
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "estimatedRoot": "7",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "1.48%",
+            "processTime": 24.439
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": "4",
+            "estimate2": "4",
+            "correct": false,
+            "rootFoundDensity": "17.21%",
+            "processTime": 19.122
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "estimatedRoot": "5",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "2.94%",
+            "processTime": 25.856
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "estimate2": "2",
+            "correct": false,
+            "rootFoundDensity": "3.17%",
+            "processTime": 26.038
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "estimatedRoot": "7",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "4.56%",
+            "processTime": 23.519
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": "5",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "0.81%",
+            "processTime": 20.493
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "estimatedRoot": "5",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "1.80%",
+            "processTime": 26.931
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+            "correctRoot": 3,
+            "estimatedRoot": "1",
+            "estimate2": "1",
+            "correct": false,
+            "rootFoundDensity": "13.33%",
+            "processTime": 25.059
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
+            "correctRoot": 8,
+            "estimatedRoot": "6",
+            "estimate2": "1",
+            "correct": false,
+            "rootFoundDensity": "22.30%",
+            "processTime": 20.052
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
+            "correctRoot": 4,
+            "estimatedRoot": "0",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "14.47%",
+            "processTime": 15.981
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 02 Doka - Bloom.wav",
+            "correctRoot": 4,
+            "estimatedRoot": "0",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "33.28%",
+            "processTime": 24.197
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 01 Doka - Harmony.wav",
+            "correctRoot": 7,
+            "estimatedRoot": "0",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "13.30%",
+            "processTime": 23.181
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 03 Doka - Uncertain.wav",
+            "correctRoot": 0,
+            "estimatedRoot": "0",
+            "estimate2": "0",
+            "correct": true,
+            "rootFoundDensity": "22.28%",
+            "processTime": 20.79
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 03 Holy Grail.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "9",
+            "estimate2": "0",
+            "correct": true,
+            "rootFoundDensity": "7.26%",
+            "processTime": 27.148
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 02 Bell Birds Dub.wav",
+            "correctRoot": 2,
+            "estimatedRoot": "2",
+            "estimate2": "2",
+            "correct": true,
+            "rootFoundDensity": "15.07%",
+            "processTime": 32.079
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 04 Moogly.wav",
+            "correctRoot": 1,
+            "estimatedRoot": "1",
+            "estimate2": "0",
+            "correct": true,
+            "rootFoundDensity": "11.77%",
+            "processTime": 30.235
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 01 Bill Bill.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "1.40%",
+            "processTime": 29.926
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 05 Holy Grail (Cinematic Mix).wav",
+            "correctRoot": 9,
+            "estimatedRoot": "9",
+            "estimate2": "0",
+            "correct": true,
+            "rootFoundDensity": "9.94%",
+            "processTime": 44.673
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 03 Mass Effect.wav",
+            "correctRoot": 2,
+            "estimatedRoot": "2",
+            "estimate2": "2",
+            "correct": true,
+            "rootFoundDensity": "12.03%",
+            "processTime": 38.314
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 02 Grinsekatze (Patrick Chardronnet Remix).wav",
+            "correctRoot": 7,
+            "estimatedRoot": "7",
+            "estimate2": "2",
+            "correct": true,
+            "rootFoundDensity": "7.04%",
+            "processTime": 32.159
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 04 Atlantis.wav",
+            "correctRoot": 11,
+            "estimatedRoot": "2",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "2.68%",
+            "processTime": 29.446
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 01 Grinsekatze.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "estimate2": "0",
+            "correct": false,
+            "rootFoundDensity": "7.04%",
+            "processTime": 24.423
+        }
+    ],
+    "comment": "corrected keys only",
+    "nTotal": 23,
+    "averageProcessTime": 26.62430434782609
+}

@@ -1,0 +1,63 @@
+{
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 11,
+            "estimatedRoot": "0",
+            "rootTotals": {
+                "0": 318,
+                "1": 149,
+                "2": 44,
+                "3": 0,
+                "4": 34,
+                "5": 140,
+                "6": 0,
+                "7": 14,
+                "8": 17,
+                "9": 59,
+                "10": 122,
+                "11": 0
+            },
+            "pitchClassTotals": {
+                "0": 8950,
+                "1": 25448,
+                "2": 1218,
+                "3": 250,
+                "4": 323,
+                "5": 858,
+                "6": 73,
+                "7": 773,
+                "8": 1830,
+                "9": 1135,
+                "10": 950,
+                "11": 162
+            },
+            "minima": {
+                "0": 39,
+                "1": 166,
+                "2": 605,
+                "3": 632,
+                "4": 596,
+                "5": 398,
+                "6": 1558,
+                "7": 840,
+                "8": 2142,
+                "9": 17977,
+                "10": 4031,
+                "11": 12986
+            },
+            "correct": false,
+            "processTime": 28.971
+        }
+    ],
+    "date": "12/11/2018, 4:14:53 PM",
+    "nCorrect": 0,
+    "nIncorrect": 1,
+    "nError": 0,
+    "errors": [],
+    "totalProcessTime": 28.971,
+    "nTotal": 1,
+    "successRate": 0,
+    "percentSuccessRate": "0.00%",
+    "averageProcessTime": 28.971
+}

@@ -9,6 +9,7 @@ class AnalyseChromaData extends Writable {
     this.rootTotals = {}
     this.loserTotals = {}
     this.winnerTotals = {}
+    this.nFrames = 0
 
     for(var i in this.pitchClasses) {
       var pc = this.pitchClasses[i]
@@ -17,7 +18,7 @@ class AnalyseChromaData extends Writable {
       this.winnerTotals[pc] = 0
     }
 
-    this.on("finish", function() {
+  /*  this.on("finish", function() {
       console.log(this.rootOGram.join(""))
       console.log("roots:", this.rootTotals)
       console.log("winners:", this.winnerTotals)
@@ -32,11 +33,10 @@ class AnalyseChromaData extends Writable {
         }
 
       console.log("best guess for key:", printPitchClass(bestGuess))
-    })
+    })*/
   }
 
   _write(chunk, encoding, callback) {
-    var output = {}
 
     var ordered = chunk.chromas.sort((a, b) => {
       return b.energy-a.energy
@@ -49,10 +49,11 @@ class AnalyseChromaData extends Writable {
     var loser = ordered[ordered.length-1].pitchClass
     this.loserTotals[loser]++
 
+    this.nFrames++
+
     if(ordered[0].energy > 0.15 && (ordered[1].pitchClass == fifth)) {
     //  console.log("found chord root:", printPitchClass(ordered[0].pitchClass))
     //  console.log(ordered.map(pc => printPitchClass(pc.pitchClass) + " " + Math.round(pc.energy*100) + "%"))
-      output.root = ordered[0].pitchClass
       this.rootTotals[ordered[0].pitchClass]++
       this.rootOGram.push(printPitchClass(ordered[0].pitchClass))
     } else
@@ -60,7 +61,7 @@ class AnalyseChromaData extends Writable {
 
   //  console.log(this.rootOGram[this.rootOGram.length-1])
 
-    callback(null, output)
+    callback(null)
   }
 }
 module.exports = AnalyseChromaData

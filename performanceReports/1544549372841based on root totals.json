@@ -1,0 +1,113 @@
+{
+    "date": "12/11/2018, 5:29:32 PM",
+    "nCorrect": 1,
+    "nIncorrect": 1,
+    "nError": 0,
+    "errors": [],
+    "totalProcessTime": 51.57,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "estimatedRoot": "0",
+            "rootTotals": {
+                "0": 318,
+                "1": 149,
+                "2": 44,
+                "3": 0,
+                "4": 34,
+                "5": 140,
+                "6": 0,
+                "7": 14,
+                "8": 17,
+                "9": 59,
+                "10": 122,
+                "11": 0
+            },
+            "pitchClassTotals": {
+                "0": 8950,
+                "1": 25448,
+                "2": 1218,
+                "3": 250,
+                "4": 323,
+                "5": 858,
+                "6": 73,
+                "7": 773,
+                "8": 1830,
+                "9": 1135,
+                "10": 950,
+                "11": 162
+            },
+            "minima": {
+                "0": 39,
+                "1": 166,
+                "2": 605,
+                "3": 632,
+                "4": 596,
+                "5": 398,
+                "6": 1558,
+                "7": 840,
+                "8": 2142,
+                "9": 17977,
+                "10": 4031,
+                "11": 12986
+            },
+            "correct": true,
+            "processTime": 27.247
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "estimatedRoot": "7",
+            "rootTotals": {
+                "0": 90,
+                "1": 16,
+                "2": 17,
+                "3": 7,
+                "4": 3,
+                "5": 117,
+                "6": 4,
+                "7": 148,
+                "8": 99,
+                "9": 34,
+                "10": 27,
+                "11": 0
+            },
+            "pitchClassTotals": {
+                "0": 17441,
+                "1": 5165,
+                "2": 4183,
+                "3": 6238,
+                "4": 931,
+                "5": 863,
+                "6": 617,
+                "7": 752,
+                "8": 967,
+                "9": 343,
+                "10": 229,
+                "11": 251
+            },
+            "minima": {
+                "0": 118,
+                "1": 64,
+                "2": 179,
+                "3": 94,
+                "4": 454,
+                "5": 458,
+                "6": 881,
+                "7": 1833,
+                "8": 3918,
+                "9": 7244,
+                "10": 4314,
+                "11": 18423
+            },
+            "correct": false,
+            "processTime": 24.323
+        }
+    ],
+    "comment": "based on root totals",
+    "nTotal": 2,
+    "successRate": 0.5,
+    "percentSuccessRate": "50.00%",
+    "averageProcessTime": 25.785
+}

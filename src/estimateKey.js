@@ -31,16 +31,36 @@ async function estimateKey(options) {
   var analyse = new AnalyseChromaData(options.pitchClasses)
   chromagramStream.pipe(analyse)
 
-  return await (new Promise((ful, rej) => {
+  return await (new Promise((fulfil, rej) => {
     analyse.on('finish', function() {
       var bestGuess = null
       var bestGuessVal = 0
-      for(var i in this.rootTotals)
+      var nRootsFound = 0
+      for(var i in this.rootTotals) {
         if(this.rootTotals[i] > bestGuessVal) {
           bestGuess = i
           bestGuessVal = this.rootTotals[i]
         }
-      ful(bestGuessVal)
+        nRootsFound += this.rootTotals[i]
+      }
+
+      var estimate2 = null
+      var estimate2Val = 0
+      for(var i in this.winnerTotals)
+        if(this.winnerTotals[i] > estimate2Val) {
+          estimate2 = i
+          estimate2Val = this.winnerTotals[i]
+        }
+
+      fulfil({
+        key: bestGuess,
+        estimate2: estimate2,
+        rootTotals: this.rootTotals,
+        rootOGram: this.rootOGram.join(""),
+        pitchClassTotals: this.winnerTotals,
+        loserTotals: this.loserTotals,
+        rootFoundDensity: nRootsFound/this.nFrames
+      })
     })
   }))
 }

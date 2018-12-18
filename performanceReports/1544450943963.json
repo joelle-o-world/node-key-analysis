@@ -1,0 +1,69 @@
+{
+    "trackByTrack": [
+        {
+            "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
+            "correctRoot": 11,
+            "estimatedRoot": null,
+            "correct": false,
+            "processTime": 187656
+        },
+        {
+            "file": "./music/Zulu_Vortex_Original_Mix.mp3",
+            "correctRoot": 10,
+            "estimatedRoot": "5",
+            "correct": false,
+            "processTime": 258053
+        },
+        {
+            "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
+            "correctRoot": 9,
+            "estimatedRoot": "7",
+            "correct": false,
+            "processTime": 138065
+        },
+        {
+            "file": "./music/Wax - No. 30003 (B).mp3",
+            "correctRoot": 2,
+            "estimatedRoot": "5",
+            "correct": false,
+            "processTime": 190285
+        },
+        {
+            "file": "./music/Wata Igarashi - Junctions Mp3.mp3",
+            "correctRoot": 2,
+            "estimatedRoot": "2",
+            "correct": true,
+            "processTime": 163663
+        },
+        {
+            "file": "./music/Valerie Dore - Get Closer (Tiger & Woods Remix).mp3",
+            "correctRoot": 5,
+            "estimatedRoot": "5",
+            "correct": true,
+            "processTime": 225835
+        },
+        {
+            "file": "./music/Todd Terje - Inspector Norse.mp3",
+            "correctRoot": 5,
+            "estimatedRoot": "5",
+            "correct": true,
+            "processTime": 172906
+        },
+        {
+            "file": "./music/Thora Vukk.mp3",
+            "correctRoot": 4,
+            "estimatedRoot": "4",
+            "correct": true,
+            "processTime": 198837
+        }
+    ],
+    "date": "12/10/2018, 1:43:28 PM",
+    "nCorrect": 4,
+    "nIncorrect": 4,
+    "nError": 0,
+    "totalProcessTime": 1535300,
+    "nTotal": 8,
+    "successRate": 0.5,
+    "percentSuccessRate": "50.00%",
+    "averageProcessTime": 191912.5
+}

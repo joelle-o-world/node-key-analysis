@@ -1,0 +1,29 @@
+{
+    "trackByTrack": [
+        {
+            "file": "./music/Norse.mp3",
+            "correctRoot": 5,
+            "totalProcessTime": 0,
+            "estimatedRoot": "5",
+            "correct": true,
+            "processTime": -170632
+        },
+        {
+            "file": "./music/Basho.mp3",
+            "correctRoot": 8,
+            "totalProcessTime": 0,
+            "estimatedRoot": "8",
+            "correct": true,
+            "processTime": -123080
+        }
+    ],
+    "date": "12/9/2018, 8:43:01 PM",
+    "nCorrect": 2,
+    "nIncorrect": 0,
+    "nError": 0,
+    "totalProcessTime": null,
+    "nTotal": 2,
+    "successRate": 1,
+    "percentSuccessRate": "100.00%",
+    "averageProcessTime": null
+}

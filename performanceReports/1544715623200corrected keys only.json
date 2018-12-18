@@ -1,0 +1,176 @@
+{
+    "date": "12/13/2018, 3:40:23 PM",
+    "nCorrect": 8,
+    "nIncorrect": 15,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.34782608695652173,
+    "percentSuccessRate": "34.78%",
+    "totalProcessTime": 682.6910000000001,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "estimatedRoot": "0",
+            "correct": true,
+            "processTime": 28.378
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "estimatedRoot": "7",
+            "correct": false,
+            "processTime": 26.881
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": null,
+            "correct": false,
+            "processTime": 21.797
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "estimatedRoot": "5",
+            "correct": false,
+            "processTime": 29.729
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "correct": false,
+            "processTime": 28.467
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "estimatedRoot": "7",
+            "correct": false,
+            "processTime": 41.64
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": "5",
+            "correct": false,
+            "processTime": 29.564
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "estimatedRoot": "5",
+            "correct": false,
+            "processTime": 29.457
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+            "correctRoot": 3,
+            "estimatedRoot": "1",
+            "correct": false,
+            "processTime": 26.883
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
+            "correctRoot": 8,
+            "estimatedRoot": "6",
+            "correct": false,
+            "processTime": 24.439
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
+            "correctRoot": 4,
+            "estimatedRoot": "0",
+            "correct": false,
+            "processTime": 16.712
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 02 Doka - Bloom.wav",
+            "correctRoot": 4,
+            "estimatedRoot": "0",
+            "correct": false,
+            "processTime": 27.537
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 01 Doka - Harmony.wav",
+            "correctRoot": 7,
+            "estimatedRoot": "0",
+            "correct": false,
+            "processTime": 25.389
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 03 Doka - Uncertain.wav",
+            "correctRoot": 0,
+            "estimatedRoot": "0",
+            "correct": true,
+            "processTime": 27.342
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 03 Holy Grail.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "9",
+            "correct": true,
+            "processTime": 31.232
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 02 Bell Birds Dub.wav",
+            "correctRoot": 2,
+            "estimatedRoot": "2",
+            "correct": true,
+            "processTime": 31.706
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 04 Moogly.wav",
+            "correctRoot": 1,
+            "estimatedRoot": "1",
+            "correct": true,
+            "processTime": 31.584
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 01 Bill Bill.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "correct": false,
+            "processTime": 29.901
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 05 Holy Grail (Cinematic Mix).wav",
+            "correctRoot": 9,
+            "estimatedRoot": "9",
+            "correct": true,
+            "processTime": 45.845
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 03 Mass Effect.wav",
+            "correctRoot": 2,
+            "estimatedRoot": "2",
+            "correct": true,
+            "processTime": 35.339
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 02 Grinsekatze (Patrick Chardronnet Remix).wav",
+            "correctRoot": 7,
+            "estimatedRoot": "7",
+            "correct": true,
+            "processTime": 31.514
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 04 Atlantis.wav",
+            "correctRoot": 11,
+            "estimatedRoot": "2",
+            "correct": false,
+            "processTime": 34.097
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 01 Grinsekatze.wav",
+            "correctRoot": 9,
+            "estimatedRoot": "2",
+            "correct": false,
+            "processTime": 27.258
+        }
+    ],
+    "comment": "corrected keys only",
+    "nTotal": 23,
+    "averageProcessTime": 29.682217391304356
+}
