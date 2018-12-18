@@ -19,6 +19,10 @@ async function measurePerformance(examples) {
       return true
   });
 
+  var confusionMatrix = []
+  for(var i=0; i<24; i++)
+    confusionMatrix[i] = new Array(24).fill(0)
+
   var report = {
     date: new Date().toLocaleString(),
     nCorrect: 0,
@@ -29,12 +33,17 @@ async function measurePerformance(examples) {
     percentSuccessRate: undefined,
     totalProcessTime: 0,
     trackByTrack: [],
+    confusionMatrix: confusionMatrix
   }
 
   if(argv._[0])
-    report.comment = argv._[0]
+    report.reportName = argv._[0]
 
-  var reportName = Date.now() + (report.comment || "") + ".json"
+  var reportName = (report.reportName || Date.now()) + ".json"
+
+
+
+
 
   for(var i in examples) {
     if(!examples[i].file) {
@@ -53,6 +62,9 @@ async function measurePerformance(examples) {
       correctMode: examples[i].mode,
     }
 
+    var correctScaleID = examples[i].root + (examples[i].mode == "minor" ? 12 : 0)
+    trackReport.correctScaleID = correctScaleID
+
     try {
       var result = await estimateKey({file: file})
       var key = result.key
@@ -65,6 +77,7 @@ async function measurePerformance(examples) {
       //trackReport.rootTotals = result.rootTotals
       //trackReport.pitchClassTotals = result.pitchClassTotals
       //trackReport.minima = result.loserTotals
+      confusionMatrix[correctScaleID][result.scaleID]++
       trackReport.correct = key == examples[i].root
       if(result.rootFoundDensity)
         trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
@@ -100,13 +113,18 @@ async function measurePerformance(examples) {
     report.averageProcessTime = report.totalProcessTime / report.nTotal
 
 
-
+    var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+cell.toString()).padStart(5)).join(""))
+    report.confusionMatrix = printedConfusionMatrix
     var outputPath = path.resolve("./performanceReports", reportName)
     var reportString = JSON.stringify(report, null, 4)
     await fs.writeFile(outputPath, reportString)
   }
 
   console.log("final report:", report)
+
+  console.log("\nconfusion matrix:")
+  var printedConfusionMatrix = confusionMatrix.map(row => row.map(cell => cell.toString().padStart(4)).join("")).join("\n")
+  console.log(printedConfusionMatrix)
 
   return report
 }
