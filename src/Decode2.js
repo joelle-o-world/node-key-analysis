@@ -19,12 +19,11 @@ function decode(file, progressReports) {
   })
   var FORMAT
   wavDecoder.on('format', (format) => {
-    console.log("format:", format)
     FORMAT = format
   })
 
   if(progressReports) {
-    ffmpegCommand.on("progress", (prog) => {
+    ffmpegCommand.on("progress", function(prog) {
       if(!this.bar) {
         this.bar = new ProgressBar(file+" :percent \t[:bar] ETA: :eta seconds ", {total: 100, width:50})
       }
@@ -37,7 +36,13 @@ function decode(file, progressReports) {
     //writableObjectMode: true,
     readableObjectMode: true,
     transform(chunk, encoding, callback) {
-      var buffer = new Float32Array(chunk.buffer)
+      try {
+        var buffer = new Float32Array(chunk.buffer)
+      } catch(e) {
+        console.warn("Decoding skipped, not good")
+        callback()
+        return
+      }
       callback(null, {
         buffer: buffer,
         numberOfChannels: FORMAT.channels,
