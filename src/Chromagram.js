@@ -35,8 +35,9 @@ class Chromagram extends Transform {
       sum += energy
       chromagram[pc].energy = energy
     }
-    for(var i in chromagram)
-      chromagram[i].energy /= sum
+    if(sum)
+      for(var i in chromagram)
+        chromagram[i].energy /= sum
     callback(null, {chromas: chromagram})
   }
 }
