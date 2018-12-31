@@ -77,7 +77,9 @@ async function measurePerformance(examples) {
       //trackReport.rootTotals = result.rootTotals
       //trackReport.pitchClassTotals = result.pitchClassTotals
       //trackReport.minima = result.loserTotals
+      
       confusionMatrix[correctScaleID][result.scaleID]++
+
       trackReport.correct = key == examples[i].root
       if(result.rootFoundDensity)
         trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
@@ -113,7 +115,7 @@ async function measurePerformance(examples) {
     report.averageProcessTime = report.totalProcessTime / report.nTotal
 
 
-    var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+cell.toString()).padStart(5)).join(""))
+    var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+(cell.toString()||"-")).padStart(5)).join(""))
     report.confusionMatrix = printedConfusionMatrix
     var outputPath = path.resolve("./performanceReports", reportName)
     var reportString = JSON.stringify(report, null, 4)

@@ -1,0 +1,409 @@
+{
+    "date": "12/18/2018, 9:05:08 PM",
+    "nCorrect": 14,
+    "nIncorrect": 23,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.3783783783783784,
+    "percentSuccessRate": "37.84%",
+    "totalProcessTime": 16680.38,
+    "trackByTrack": [
+        {
+            "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
+            "correctRoot": 11,
+            "correctScaleID": 11,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 27.395
+        },
+        {
+            "file": "./music/Zulu_Vortex_Original_Mix.mp3",
+            "correctRoot": 10,
+            "correctScaleID": 10,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 34.603
+        },
+        {
+            "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 19.851
+        },
+        {
+            "file": "./music/Wax - No. 30003 (B).mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "correctScaleID": 14,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 27.501
+        },
+        {
+            "file": "./music/Wata Igarashi - Junctions Mp3.mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "correctScaleID": 14,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 24.149
+        },
+        {
+            "file": "./music/Valerie Dore - Get Closer (Tiger & Woods Remix).mp3",
+            "correctRoot": 5,
+            "correctMode": "minor",
+            "correctScaleID": 17,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 32.781
+        },
+        {
+            "file": "./music/Todd Terje - Inspector Norse.mp3",
+            "correctRoot": 5,
+            "correctMode": "major",
+            "correctScaleID": 5,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 27.163
+        },
+        {
+            "file": "./music/Thora Vukk.mp3",
+            "correctRoot": 4,
+            "correctMode": "major",
+            "correctScaleID": 4,
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 27.603
+        },
+        {
+            "file": "./music/Theme From It's All Gone Pear Shaped (1994).mp3",
+            "correctRoot": 10,
+            "correctMode": "minor",
+            "correctScaleID": 22,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 47.852
+        },
+        {
+            "file": "./music/Tell You No Lie [M-PLANT].mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "correctScaleID": 14,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 35.573
+        },
+        {
+            "file": "./music/Sweet Female Attitude - Flowers.mp3",
+            "correctRoot": 3,
+            "correctMode": "major",
+            "correctScaleID": 3,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 15.291
+        },
+        {
+            "file": "./music/Stranger Thing - C418.mp3",
+            "correctRoot": 0,
+            "correctMode": "major",
+            "correctScaleID": 0,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 16.74
+        },
+        {
+            "file": "./music/Spencer Brown - Downpour.mp3",
+            "correctRoot": 4,
+            "correctMode": "minor",
+            "correctScaleID": 16,
+            "estimatedRoot": 4,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 28.629
+        },
+        {
+            "file": "./music/Sleep D - Bush Snake.mp3",
+            "correctRoot": 5,
+            "correctMode": "minor",
+            "correctScaleID": 17,
+            "estimatedRoot": 5,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 35.668
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "correctMode": "minor",
+            "correctScaleID": 12,
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 28.312
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "correctScaleID": 14,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 25.366
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "correctMode": "minor",
+            "correctScaleID": 23,
+            "estimatedRoot": 4,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 19.376
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "correctMode": "minor",
+            "correctScaleID": 12,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 25.356
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 26.759
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "correctMode": "minor",
+            "correctScaleID": 16,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 25.719
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "correctMode": "minor",
+            "correctScaleID": 23,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 23.777
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "correctMode": "major",
+            "correctScaleID": 8,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 28.825
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+            "correctRoot": 3,
+            "correctMode": "minor",
+            "correctScaleID": 15,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 24.464
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
+            "correctRoot": 8,
+            "correctMode": "major",
+            "correctScaleID": 8,
+            "estimatedRoot": 3,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 19.811
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
+            "correctRoot": 4,
+            "correctMode": "minor",
+            "correctScaleID": 16,
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "processTime": 16.565
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 02 Doka - Bloom.wav",
+            "correctRoot": 4,
+            "correctMode": "minor",
+            "correctScaleID": 16,
+            "estimatedRoot": 4,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 26.794
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 01 Doka - Harmony.wav",
+            "correctRoot": 7,
+            "correctMode": "minor",
+            "correctScaleID": 19,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 22.585
+        },
+        {
+            "file": "./music/miles/Doka/Konstrukt - Doka - Konstrukt 004 - 03 Doka - Uncertain.wav",
+            "correctRoot": 0,
+            "correctMode": "major",
+            "correctScaleID": 0,
+            "estimatedRoot": 9,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 15678.833
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 03 Holy Grail.wav",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": 9,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 30.208
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 02 Bell Birds Dub.wav",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "correctScaleID": 14,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 32.236
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 04 Moogly.wav",
+            "correctRoot": 1,
+            "correctMode": "minor",
+            "correctScaleID": 13,
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 30.755
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 01 Bill Bill.wav",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": 9,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 28.25
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Nadja Lind, Helmut Ebritsch - E4 -LF072- - 05 Holy Grail (Cinematic Mix).wav",
+            "correctRoot": 9,
+            "correctMode": "major",
+            "correctScaleID": 9,
+            "estimatedRoot": 9,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 43.518
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 03 Mass Effect.wav",
+            "correctRoot": 2,
+            "correctMode": "major",
+            "correctScaleID": 2,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 35.338
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 02 Grinsekatze (Patrick Chardronnet Remix).wav",
+            "correctRoot": 7,
+            "correctMode": "major",
+            "correctScaleID": 7,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 30.27
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 04 Atlantis.wav",
+            "correctRoot": 11,
+            "correctMode": "minor",
+            "correctScaleID": 23,
+            "estimatedRoot": 11,
+            "estimatedMode": "minor",
+            "correct": true,
+            "processTime": 30.385
+        },
+        {
+            "file": "./music/miles/Klartraum/Klartraum, Patrick Chardronnet - Mass Void -LF150- - 01 Grinsekatze.wav",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 26.079
+        }
+    ],
+    "confusionMatrix": [
+        "   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0",
+        "    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0",
+        "    0    0    0   *0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0   *0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    1    0    0",
+        "    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    1    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0   *0    1    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0   *1    1    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0   *1    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    1    0   *4    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0   *2    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *1    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0   *0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0   *2    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    1    0    0    0    0    0    0   *1"
+    ],
+    "reportName": "with confusion matrix",
+    "nTotal": 37,
+    "averageProcessTime": 450.8210810810811
+}

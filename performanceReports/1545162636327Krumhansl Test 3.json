@@ -1,0 +1,163 @@
+{
+    "date": "12/18/2018, 7:50:36 PM",
+    "nCorrect": 6,
+    "nIncorrect": 9,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.4,
+    "percentSuccessRate": "40.00%",
+    "totalProcessTime": 436.467,
+    "trackByTrack": [
+        {
+            "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
+            "correctRoot": 11,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 25.381
+        },
+        {
+            "file": "./music/Zulu_Vortex_Original_Mix.mp3",
+            "correctRoot": 10,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 35.992
+        },
+        {
+            "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 22.691
+        },
+        {
+            "file": "./music/Wax - No. 30003 (B).mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 29.15
+        },
+        {
+            "file": "./music/Wata Igarashi - Junctions Mp3.mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 26.596
+        },
+        {
+            "file": "./music/Valerie Dore - Get Closer (Tiger & Woods Remix).mp3",
+            "correctRoot": 5,
+            "correctMode": "minor",
+            "estimatedRoot": 5,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 33.413
+        },
+        {
+            "file": "./music/Todd Terje - Inspector Norse.mp3",
+            "correctRoot": 5,
+            "correctMode": "major",
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 26.592
+        },
+        {
+            "file": "./music/Thora Vukk.mp3",
+            "correctRoot": 4,
+            "correctMode": "major",
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 28.905
+        },
+        {
+            "file": "./music/Theme From It's All Gone Pear Shaped (1994).mp3",
+            "correctRoot": 10,
+            "correctMode": "minor",
+            "estimatedRoot": 10,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 47.623
+        },
+        {
+            "file": "./music/Tell You No Lie [M-PLANT].mp3",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 32.801
+        },
+        {
+            "file": "./music/Sweet Female Attitude - Flowers.mp3",
+            "correctRoot": 3,
+            "correctMode": "major",
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 16.128
+        },
+        {
+            "file": "./music/Stranger Thing - C418.mp3",
+            "correctRoot": 0,
+            "correctMode": "major",
+            "estimatedRoot": 4,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 16.685
+        },
+        {
+            "file": "./music/Spencer Brown - Downpour.mp3",
+            "correctRoot": 4,
+            "correctMode": "minor",
+            "estimatedRoot": 4,
+            "estimatedMode": "minor",
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 29.499
+        },
+        {
+            "file": "./music/Sleep D - Bush Snake.mp3",
+            "correctRoot": 5,
+            "correctMode": "minor",
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 34.142
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "correctMode": "minor",
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 30.869
+        }
+    ],
+    "comment": "Krumhansl Test 3",
+    "nTotal": 15,
+    "averageProcessTime": 29.0978
+}

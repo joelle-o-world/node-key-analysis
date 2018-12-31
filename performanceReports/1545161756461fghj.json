@@ -1,0 +1,93 @@
+{
+    "date": "12/18/2018, 7:35:56 PM",
+    "nCorrect": 0,
+    "nIncorrect": 0,
+    "nError": 11,
+    "errors": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "successRate": 0,
+    "percentSuccessRate": "0.00%",
+    "totalProcessTime": 1.413,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "error": {},
+            "processTime": 0.315
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "error": {},
+            "processTime": 0.107
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "error": {},
+            "processTime": 0.118
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "error": {},
+            "processTime": 0.122
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "error": {},
+            "processTime": 0.104
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "error": {},
+            "processTime": 0.097
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "error": {},
+            "processTime": 0.12
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "error": {},
+            "processTime": 0.126
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+            "correctRoot": 3,
+            "error": {},
+            "processTime": 0.102
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 02 Club Vibe.wav",
+            "correctRoot": 8,
+            "error": {},
+            "processTime": 0.099
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 03 Exactly Mate.wav",
+            "correctRoot": 4,
+            "error": {},
+            "processTime": 0.103
+        }
+    ],
+    "comment": "fghj",
+    "nTotal": 11,
+    "averageProcessTime": 0.12845454545454546
+}

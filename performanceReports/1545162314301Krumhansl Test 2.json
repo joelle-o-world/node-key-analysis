@@ -1,0 +1,47 @@
+{
+    "date": "12/18/2018, 7:45:14 PM",
+    "nCorrect": 1,
+    "nIncorrect": 3,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.25,
+    "percentSuccessRate": "25.00%",
+    "totalProcessTime": 104.41199999999999,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "estimatedRoot": 1,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 27.732
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "estimatedRoot": 0,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 27.023
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": 4,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 20.258
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "estimatedRoot": 0,
+            "correct": true,
+            "rootFoundDensity": "NaN%",
+            "processTime": 29.399
+        }
+    ],
+    "comment": "Krumhansl Test 2",
+    "nTotal": 4,
+    "averageProcessTime": 26.102999999999998
+}

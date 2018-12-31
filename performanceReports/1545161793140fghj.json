@@ -1,0 +1,72 @@
+{
+    "date": "12/18/2018, 7:36:33 PM",
+    "nCorrect": 0,
+    "nIncorrect": 0,
+    "nError": 8,
+    "errors": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "successRate": 0,
+    "percentSuccessRate": "0.00%",
+    "totalProcessTime": 0.9129999999999999,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "error": {},
+            "processTime": 0.16
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "error": {},
+            "processTime": 0.087
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "error": {},
+            "processTime": 0.093
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "error": {},
+            "processTime": 0.124
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "error": {},
+            "processTime": 0.106
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "error": {},
+            "processTime": 0.121
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "error": {},
+            "processTime": 0.121
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "error": {},
+            "processTime": 0.101
+        }
+    ],
+    "comment": "fghj",
+    "nTotal": 8,
+    "averageProcessTime": 0.11412499999999999
+}

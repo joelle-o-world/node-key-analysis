@@ -1,0 +1,69 @@
+{
+    "date": "12/18/2018, 9:03:14 PM",
+    "nCorrect": 0,
+    "nIncorrect": 3,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0,
+    "percentSuccessRate": "0.00%",
+    "totalProcessTime": 83.019,
+    "trackByTrack": [
+        {
+            "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
+            "correctRoot": 11,
+            "correctScaleID": 11,
+            "estimatedRoot": 0,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 25.59
+        },
+        {
+            "file": "./music/Zulu_Vortex_Original_Mix.mp3",
+            "correctRoot": 10,
+            "correctScaleID": 10,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 35.588
+        },
+        {
+            "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
+            "correctRoot": 9,
+            "correctMode": "minor",
+            "correctScaleID": 21,
+            "estimatedRoot": 2,
+            "estimatedMode": "minor",
+            "correct": false,
+            "processTime": 21.841
+        }
+    ],
+    "confusionMatrix": [
+        "   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    1    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0   *0    1    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0   *0    0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0    0",
+        "    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0   *0"
+    ],
+    "comment": "with confusion matrix",
+    "nTotal": 3,
+    "averageProcessTime": 27.673000000000002
+}

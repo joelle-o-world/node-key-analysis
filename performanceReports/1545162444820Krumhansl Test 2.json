@@ -1,0 +1,35 @@
+{
+    "date": "12/18/2018, 7:47:24 PM",
+    "nCorrect": 0,
+    "nIncorrect": 2,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0,
+    "percentSuccessRate": "0.00%",
+    "totalProcessTime": 64.914,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "correctMode": "minor",
+            "estimatedRoot": 1,
+            "estimatedMode": "minor",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 34.748
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "correctMode": "minor",
+            "estimatedRoot": -1,
+            "estimatedMode": "major",
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 30.166
+        }
+    ],
+    "comment": "Krumhansl Test 2",
+    "nTotal": 2,
+    "averageProcessTime": 32.457
+}

@@ -1,0 +1,96 @@
+{
+    "date": "12/18/2018, 6:50:56 PM",
+    "nCorrect": 2,
+    "nIncorrect": 7,
+    "nError": 0,
+    "errors": [],
+    "successRate": 0.2222222222222222,
+    "percentSuccessRate": "22.22%",
+    "totalProcessTime": 230.436,
+    "trackByTrack": [
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Using Famous Voices (The Ravis Version).wav",
+            "correctRoot": 0,
+            "estimatedRoot": 1,
+            "estimate2": 1,
+            "correct": false,
+            "rootFoundDensity": "0.00%",
+            "processTime": 27.544
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - The Georges (Original Mix).wav",
+            "correctRoot": 2,
+            "estimatedRoot": 8,
+            "estimate2": 8,
+            "correct": false,
+            "rootFoundDensity": "0.00%",
+            "processTime": 24.306
+        },
+        {
+            "file": "./music/miles/S3A/Gorodo 500/S3A - Valenticam Outro (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": 7,
+            "estimate2": 7,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 19.721
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The 4th (Variation 2).wav",
+            "correctRoot": 0,
+            "estimatedRoot": 1,
+            "estimate2": 1,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 27.321
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Seekin_ Sunshine (Original Mix).wav",
+            "correctRoot": 9,
+            "estimatedRoot": 9,
+            "estimate2": 9,
+            "correct": true,
+            "rootFoundDensity": "0.00%",
+            "processTime": 28.849
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - The First Year (Original Mix).wav",
+            "correctRoot": 4,
+            "estimatedRoot": 7,
+            "estimate2": 7,
+            "correct": false,
+            "rootFoundDensity": "NaN%",
+            "processTime": 26.254
+        },
+        {
+            "file": "./music/miles/S3A/Note, Notes, Noten/S3A - Looping Strings (Original Mix).wav",
+            "correctRoot": 11,
+            "estimatedRoot": 0,
+            "estimate2": 0,
+            "correct": false,
+            "rootFoundDensity": "0.00%",
+            "processTime": 21.845
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 01 Passing Me By.wav",
+            "correctRoot": 8,
+            "estimatedRoot": 8,
+            "estimate2": 8,
+            "correct": true,
+            "rootFoundDensity": "0.00%",
+            "processTime": 27.69
+        },
+        {
+            "file": "./music/miles/Mella Dee - Exactly Mate EP/Mella Dee - Exactly Mate EP - 04 Out Of Love.wav",
+            "correctRoot": 3,
+            "estimatedRoot": 1,
+            "estimate2": 1,
+            "correct": false,
+            "rootFoundDensity": "0.00%",
+            "processTime": 26.906
+        }
+    ],
+    "comment": "Krumhansl Method (testing)",
+    "nTotal": 9,
+    "averageProcessTime": 25.604
+}
