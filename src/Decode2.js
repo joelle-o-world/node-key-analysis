@@ -4,11 +4,12 @@ const {Transform} = require("stream")
 const ProgressBar = require("progress")
 const Promise = require("bluebird")
 
-function decode(file, progressReports) {
+function decode(file, progressReports, sampleRate=44100) {
   var ffmpegCommand = ffmpeg(file)
     .format("wav")
     .audioCodec("pcm_f32le")
     .audioChannels(1)
+    .audioFrequency(sampleRate)
     .noVideo()
     .on('error', (e) => {
       console.error(e)

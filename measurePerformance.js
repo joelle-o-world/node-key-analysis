@@ -1,7 +1,8 @@
 const fs = require("fs").promises
 const oldFs = require("fs")
 const path = require('path')
-const estimateKey = require("./src/estimateKey2.js")
+const algorithm = "./src/estimateKey4.js"
+const estimateKey = require(algorithm)
 const argv = require("minimist")(process.argv.slice(2))
 
 async function measurePerformance(examples) {
@@ -25,6 +26,7 @@ async function measurePerformance(examples) {
 
   var report = {
     date: new Date().toLocaleString(),
+    algorithm: algorithm,
     nCorrect: 0,
     nIncorrect: 0,
     nError: 0,
@@ -77,7 +79,7 @@ async function measurePerformance(examples) {
       //trackReport.rootTotals = result.rootTotals
       //trackReport.pitchClassTotals = result.pitchClassTotals
       //trackReport.minima = result.loserTotals
-      
+
       confusionMatrix[correctScaleID][result.scaleID]++
 
       trackReport.correct = key == examples[i].root
