@@ -56,8 +56,7 @@ function binPitchClasses(numberOfBins /* (windowSize) */, sampleRate) {
   return pc
 }
 
-function makeTestFrame(pitchClass, numberOfBins, sampleRate, nHarmonics, nOctaves) {
-  nHarmonics = nHarmonics || 16
+function makeTestFrame(pitchClass, numberOfBins, sampleRate, nHarmonics=16, nOctaves=6) {
   nOctaves = nOctaves || 6
   var frame = {}//new Float32Array(numberOfBins).fill(0)
 
@@ -66,7 +65,7 @@ function makeTestFrame(pitchClass, numberOfBins, sampleRate, nHarmonics, nOctave
     var f = low * Math.pow(2, octave)
 
     var h = 0.5
-    for(var harmonic=1; harmonic<nHarmonics; harmonic++) {
+    for(var harmonic=1; harmonic<=nHarmonics; harmonic++) {
       var ammount = Math.pow(h, harmonic-1)
       try {
         incrementFrequency(frame, f*(harmonic+1), ammount, numberOfBins, sampleRate)

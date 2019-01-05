@@ -9,6 +9,7 @@ class ToBuffer extends Transform {
   }
   _transform(chunk, encoding, callback) {
     var buffer = new Buffer(this.byteDepth*chunk.buffer.length)//new Buffer(this.byteDepth * chunk.numberOfChannels * chunk.lengthInSamples)
+    
     for(var i=0; i<chunk.buffer.length; i++)
       buffer.writeInt16LE(chunk.buffer[i] * this.scaleFloats, i*this.byteDepth)
     callback(null, buffer)
