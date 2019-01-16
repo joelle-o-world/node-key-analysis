@@ -36,14 +36,14 @@ const hopSize = Math.round(windowSize/3)
 const sampleRate = 11000
 
 var multFrame = new Array(windowSize*2).fill(0)
-pitchClasses = [0,4,7]
+pitchClasses = [0, 4, 7]
 for(var j in pitchClasses) {
   var pc = pitchClasses[j]
   var pcFrame = Chromagram.makeTestFrame(
     pc,
     windowSize,
     sampleRate,
-    5,
+    1,
     5
   )
   for(var i in pcFrame)
@@ -51,16 +51,16 @@ for(var j in pitchClasses) {
 }
 
 var chain = new Decoder(audioFile, false, sampleRate)
-  /*.pipe(new Hopper(windowSize, hopSize))
+  .pipe(new Hopper(windowSize, hopSize))
   .pipe(new Windower(windowSize, "hamming"))
   .pipe(new FFT(windowSize))
   // spectral processing processing
-  .pipe(new ReduceTransients(5, sampleRate/hopSize, windowSize*2))
+  //.pipe(new ReduceTransients(5, sampleRate/hopSize, windowSize*2))
   .pipe(new FrameFilter(multFrame, windowSize*2))
 
   .pipe(new IFFT(windowSize, sampleRate)) // why is the length of the output chunks 8192?
   .pipe(new Windower(windowSize, "hamming"))
-  .pipe(new UnHopper(windowSize, hopSize))*/
+  .pipe(new UnHopper(windowSize, hopSize))
   .pipe(new ToBuffer)
   .pipe(new Speaker({
     channels: 1,
