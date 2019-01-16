@@ -10,3 +10,5 @@ function printScaleID(n) {
     return letters[n-12] + "m"
 }
 module.exports = printScaleID
+
+const letters = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
