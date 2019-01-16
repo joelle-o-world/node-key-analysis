@@ -1,17 +1,5 @@
 [
   {
-    "file": "./music/kmmmmmmmmmm_Original_Mix.mp3",
-    "root": 11,
-    "comment": "basically atonal",
-    "checked": true
-  },
-  {
-    "file": "./music/Zulu_Vortex_Original_Mix.mp3",
-    "root": 10,
-    "comment": "basically atonal",
-    "checked": true
-  },
-  {
     "file": "./music/Wonder Dog - Ruff mix (1982 Extended version).mp3",
     "root": 9,
     "mode": "minor",

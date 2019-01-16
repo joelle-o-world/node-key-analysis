@@ -1,0 +1,1362 @@
+[
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/10cc - Dreadlock Holiday.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "10CC",
+        "trackName": "Dreadlock Holiday",
+        "fileMatchRating": 0.875
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/4hero - Star Chasers.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "4hero",
+        "trackName": "Star Chasers (Masters At Work Main Mix)",
+        "fileMatchRating": 0.6129032258064516
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/808 State - Pacific State (Original Extended Version).mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "808 State",
+        "trackName": "Pacific State",
+        "fileMatchRating": 0.6301369863013698
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/A Guy Called Gerald - Voodoo Ray.mp3",
+        "key": "A",
+        "root": 9,
+        "mode": "major",
+        "scaleID": 9,
+        "artist": "A Guy Called Gerald",
+        "trackName": "Voodoo Ray",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/A Tribe Called Quest - Can I Kick It (Boilerhouse Mix).mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "A Tribe Called Quest",
+        "trackName": "Can I Kick It? (Boilerhouse Mix)",
+        "fileMatchRating": 0.968421052631579
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/A Tribe Called Quest - Find a Way (Instrumental).mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "A Tribe Called Quest",
+        "trackName": "Find A Way",
+        "fileMatchRating": 0.7222222222222222
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/A Tribe Called Quest - Vivrant Thing - Lyrics.mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "A Tribe Called Quest",
+        "trackName": "Vivrant Thing (feat Violator)",
+        "fileMatchRating": 0.735632183908046
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aaliyah | Are You That Somebody.mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Aaliyah",
+        "trackName": "Are You That Somebody?",
+        "fileMatchRating": 0.8813559322033898
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/AC:DC - Back In Black.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "AC-DC",
+        "trackName": "Back In Black",
+        "fileMatchRating": 0.9
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/AC:DC - You Shook Me All Night Long.mp3",
+        "key": "G",
+        "root": 7,
+        "mode": "major",
+        "scaleID": 7,
+        "artist": "AC-DC",
+        "trackName": "You Shook Me All Night Long",
+        "fileMatchRating": 0.9354838709677419
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Acid District - Keep On Searching : Original Mix [Eklektisch].mp3",
+        "key": "G#m",
+        "root": 8,
+        "mode": "minor",
+        "scaleID": 20,
+        "artist": "Acid District",
+        "trackName": "Keep On Searching",
+        "fileMatchRating": 0.6976744186046512
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adam F - Aromatherapy.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Adam F",
+        "trackName": "Aromatherapy (Edit)",
+        "fileMatchRating": 0.8333333333333334
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adam F - Circles (Album Edit).mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Adam F",
+        "trackName": "Circles (Album Edit)",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adam F - Metropolis.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Adam F",
+        "trackName": "Metropolis",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adam F feat Redman - Smash Sumthin.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Adam F",
+        "trackName": "Smash Sumthin (feat Redman)",
+        "fileMatchRating": 0.875
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adam K & Soha 'Question' (Original Club Mix).mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Adam K & Soha",
+        "trackName": "Question",
+        "fileMatchRating": 0.6129032258064516
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Adamski & Seal - Killer (Full Length Video).mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "Adamski",
+        "trackName": "Killer (feat Seal)",
+        "fileMatchRating": 0.6060606060606061
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Doctor Dru & Adana Twins - Anymore (MANIK Remix).mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Adana Twins",
+        "trackName": "Anymore (Manik Remix)",
+        "fileMatchRating": 0.7368421052631579
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Afrika Bambaataa - Mind Control (danmass rmx).mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Afrika Bambaataa",
+        "trackName": "Mind Control (The Danmass Instrumental)",
+        "fileMatchRating": 0.75
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Agent Sumo _ Mayhem.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Agent Sumo",
+        "trackName": "Mayhem",
+        "fileMatchRating": 0.8947368421052632
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Air - Sexy Boy  (full length).mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Air",
+        "trackName": "Sexy Boy",
+        "fileMatchRating": 0.65
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aktarv8r - Aftermath.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Aktarv8r",
+        "trackName": "Afterwrath",
+        "fileMatchRating": 0.8837209302325582
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aktarv8r - Shinkirou.mp3",
+        "key": "A",
+        "root": 9,
+        "mode": "major",
+        "scaleID": 9,
+        "artist": "Aktarv8r",
+        "trackName": "Shinkirou",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alexis Raphael - Kitchens and Bedrooms.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Alexis Raphael",
+        "trackName": "Kitchens & Bedrooms",
+        "fileMatchRating": 0.9142857142857143
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Algol-Callistos warm oceans.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Algol",
+        "trackName": "Callisto's Warm Oceans",
+        "fileMatchRating": 0.8070175438596491
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alison Limerick - Where Love Lives.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Alison Limerick",
+        "trackName": "Where Love Lives (Original 7\" Radio Edit)",
+        "fileMatchRating": 0.7294117647058823
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alix Perez feat. Peven Everett & SpectraSoul - Forsaken (Calibre Remix).mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Alix Perez",
+        "trackName": "Forsaken (feat Peven Everett and Spectrasoul)",
+        "fileMatchRating": 0.7350427350427351
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alphabet Pony - Atoms.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Alphabet Pony",
+        "trackName": "Atoms",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alphabet Pony - Clones.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Alphabet Pony",
+        "trackName": "Clones",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alter Ego - Rocker.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Alter Ego",
+        "trackName": "Rocker",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Althea and Donna - Uptown Top Ranking.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Althea & Donna",
+        "trackName": "Uptown Top Ranking (2001 digital remaster)",
+        "fileMatchRating": 0.6666666666666666
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Alton Ellis - Black Man's Pride (Live at Sunsplash 83).mp3",
+        "key": "F",
+        "root": 5,
+        "mode": "major",
+        "scaleID": 5,
+        "artist": "Alton Ellis",
+        "trackName": "Black Man's Pride",
+        "fileMatchRating": 0.7272727272727273
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/AlunaGeorge - Your Drums, Your Love.mp3",
+        "key": "G#",
+        "root": 8,
+        "mode": "major",
+        "scaleID": 8,
+        "artist": "Aluna George",
+        "trackName": "Your Drums, Your Love (Duke Dumont Remix)",
+        "fileMatchRating": 0.7710843373493976
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/UK Garage - Amira - My Desire (Dreem Teem Remix).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Amira",
+        "trackName": "My Desire (Dreem Teem Remix)",
+        "fileMatchRating": 0.88
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Amirali - Beautiful World (Original Mix).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Amirali",
+        "trackName": "Beautiful World",
+        "fileMatchRating": 0.7619047619047619
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Anturage, Amnesia Haze - Raw (Original Mix) (Bass Boosted).mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Amnesia Haze",
+        "trackName": "Raw (feat Anturage)",
+        "fileMatchRating": 0.611764705882353
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Amy Winehouse - You´re Wondering Now.mp3",
+        "key": "C",
+        "root": 0,
+        "mode": "major",
+        "scaleID": 0,
+        "artist": "Amy Winehouse",
+        "trackName": "You're Wondering Now",
+        "fileMatchRating": 0.9411764705882353
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Anti pop Consortium - Ping pong.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Antipop Consortium",
+        "trackName": "Ping Pong",
+        "fileMatchRating": 0.9310344827586207
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Antiserum & Mayhem - Trippy.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "AntiSerum",
+        "trackName": "Trippy (feat Mayhem)",
+        "fileMatchRating": 0.7368421052631579
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aphex Twin - Window Licker.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Aphex Twin",
+        "trackName": "Windowlicker",
+        "fileMatchRating": 0.92
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aretha Franklin - Respect [1967] (Original Version).mp3",
+        "key": "C",
+        "root": 0,
+        "mode": "major",
+        "scaleID": 0,
+        "artist": "Aretha Franklin",
+        "trackName": "Respect",
+        "fileMatchRating": 0.6575342465753424
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Aril Brikha - Palma.mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "Aril Brikha",
+        "trackName": "Palma",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Armand van Helden  The Funk Phenomena 1996) (SD).mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Armand Van Helden",
+        "trackName": "The Funk Phenomena",
+        "fileMatchRating": 0.7692307692307693
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Armand Van Helden (Ft. Duane Harden) - U Don't Know Me.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Armand Van Helden",
+        "trackName": "U Don't Know Me (feat Duane Harden)",
+        "fileMatchRating": 0.8421052631578947
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Arrested Development - People Everyday.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Arrested Development",
+        "trackName": "People Everyday (Ibrahim's Edit)",
+        "fileMatchRating": 0.8089887640449438
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Ash - Kung Fu.mp3",
+        "key": "E",
+        "root": 4,
+        "mode": "major",
+        "scaleID": 4,
+        "artist": "Ash",
+        "trackName": "Kung Fu",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Asian Dub Foundation - Box.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Asian Dub Foundation",
+        "trackName": "Box",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Asian Dub Foundation - Charge.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Asian Dub Foundation",
+        "trackName": "Charge",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Asian Dub Foundation - Witness.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Asian Dub Foundation",
+        "trackName": "Witness",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Audioweb - Policeman Skank (Freestylers rinse out mix) [HD].mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Audioweb",
+        "trackName": "Policeman Skank (Freestylers Rinse Out Mix)",
+        "fileMatchRating": 0.8269230769230769
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Augustus Pablo - Java.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Augustus Pablo",
+        "trackName": "Java",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Azzido Da Bass - Dooms Night (Timo Maas Remix) 1080p.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Azzido Da Bass",
+        "trackName": "Doom's Night (Timo Maas Remix)",
+        "fileMatchRating": 0.8863636363636364
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/B-Complex - Beautiful Lies VIP.mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "B-Complex",
+        "trackName": "Beautiful Lies VIP",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/B-Complex - Three Dots.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "B-Complex",
+        "trackName": "Three Dots",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Babe Ruth - The Mexican.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Babe Ruth",
+        "trackName": "The Mexican",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/BABY D - Let Me Be Your Fantasy (Original Version).mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Baby D",
+        "trackName": "Let Me Be Your Fantasy",
+        "fileMatchRating": 0.6197183098591549
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bachelors Of Science - Strings Track.mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Bachelors Of Science",
+        "trackName": "Strings Track",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bachelors Of Science - The Ice Dance.mp3",
+        "key": "C#m",
+        "root": 1,
+        "mode": "minor",
+        "scaleID": 13,
+        "artist": "Bachelors Of Science",
+        "trackName": "The Ice Dance",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Backdraft - Riddler.mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Backdraft",
+        "trackName": "Riddler",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bad Company - The Nine.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Bad Company",
+        "trackName": "The Nine",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Basement Jaxx - Never Say Never (Mark Knight Remix).mp3",
+        "key": "G#m",
+        "root": 8,
+        "mode": "minor",
+        "scaleID": 20,
+        "artist": "Basement Jaxx",
+        "trackName": "Never Say Never (Mark Knight Remix)",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Basement Jaxx - Red Alert ( Official Video ) Remedy.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Basement Jaxx",
+        "trackName": "Red Alert",
+        "fileMatchRating": 0.6666666666666666
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Basement Jaxx - Where's Your Head At ( Official Video ) Rooty.mp3",
+        "key": "C",
+        "root": 0,
+        "mode": "major",
+        "scaleID": 0,
+        "artist": "Basement Jaxx",
+        "trackName": "Where's Your Head At",
+        "fileMatchRating": 0.7441860465116279
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/BassBrothers - Jamaican Thug.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Bass Brothers",
+        "trackName": "Jamaican Thug",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beastie Boys - An Open Letter To NYC.mp3",
+        "key": "C#m",
+        "root": 1,
+        "mode": "minor",
+        "scaleID": 13,
+        "artist": "Beastie Boys",
+        "trackName": "An Open Letter To NYC",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beastie Boys - Intergalactic.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Beastie Boys",
+        "trackName": "Intergalactic",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beastie Boys - Root Down.mp3",
+        "key": "F",
+        "root": 5,
+        "mode": "major",
+        "scaleID": 5,
+        "artist": "Beastie Boys",
+        "trackName": "Root Down",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beastie Boys - Sure Shot.mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Beastie Boys",
+        "trackName": "Sure Shot",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beastie Boys - Triple Trouble.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Beastie Boys",
+        "trackName": "Triple Trouble",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beat Assassins - Gunclip.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Beat Assassins",
+        "trackName": "Gunclip",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beats International   Dub Be Good To Me.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Beats International",
+        "trackName": "Dub Be Good To Me",
+        "fileMatchRating": 0.9565217391304348
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beck - Where It's At.mp3",
+        "key": "A",
+        "root": 9,
+        "mode": "major",
+        "scaleID": 9,
+        "artist": "Beck",
+        "trackName": "Where It's At",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beenie Man - Who Am I (Playground Mix).mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Beenie Man",
+        "trackName": "Who Am I? (Playground Mix)",
+        "fileMatchRating": 0.9565217391304348
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Ben Pearce - What I Might Do.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Ben Pearce",
+        "trackName": "What I Might Do",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Benga - Crunked Up.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Benga",
+        "trackName": "Crunked Up",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Benga - E-Trips.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Benga",
+        "trackName": "E Trips",
+        "fileMatchRating": 0.9032258064516129
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Benny Page Ft. Topcat - Sound Fi Dead.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Benny Page",
+        "trackName": "Sound Fi Dead (feat Top Cat)",
+        "fileMatchRating": 0.7246376811594203
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Beyoncé - Crazy In Love ft. JAY Z.mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Beyoncé",
+        "trackName": "Crazy In Love",
+        "fileMatchRating": 0.8301886792452831
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Big Chocolate - Blue Milk.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Big Chocolate",
+        "trackName": "Blue Milk",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Big L - Put It On.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Big L",
+        "trackName": "Put It On",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Big Pun - Twinz (Deep Cover '98) (Feat. Fat Joe).mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Big Punisher",
+        "trackName": "Twinz (Deep Cover '98)",
+        "fileMatchRating": 0.7368421052631579
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/03. Bigga Star - Ghost.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Bigga Star",
+        "trackName": "Ghost",
+        "fileMatchRating": 0.9230769230769231
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bill Withers - use me.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Bill Withers",
+        "trackName": "Use Me",
+        "fileMatchRating": 0.8
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bill Withers - Who Is He (And What Is He to You).mp3",
+        "key": "G#m",
+        "root": 8,
+        "mode": "minor",
+        "scaleID": 20,
+        "artist": "Bill Withers",
+        "trackName": "Who Is He (And What Is He To You)?",
+        "fileMatchRating": 0.9135802469135802
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Billy Idol - White Wedding Pt 1.mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Billy Idol",
+        "trackName": "White Wedding",
+        "fileMatchRating": 0.9056603773584906
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bizarre Inc - Playing With Knives.mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Bizarre Inc",
+        "trackName": "Playing With Knives",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Björk - Hyperballad.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Björk",
+        "trackName": "Hyperballad",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Black Box - Ride on Time.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Black Box",
+        "trackName": "Ride On Time",
+        "fileMatchRating": 0.9090909090909091
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Black Moon - Who Got The Props.mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Black Moon",
+        "trackName": "Who Got Da Props",
+        "fileMatchRating": 0.8679245283018868
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blak Twang - So Rotton.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Blak Twang",
+        "trackName": "So Rotten (feat Jahmali)",
+        "fileMatchRating": 0.6545454545454545
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/The Wire_ Blake Leyh and Andre Burke- The Fall.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Blake Leyh",
+        "trackName": "The Fall",
+        "fileMatchRating": 0.6229508196721312
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blondie - Atomic.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Blondie",
+        "trackName": "Atomic",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blondie- Call me.mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Blondie",
+        "trackName": "Call Me",
+        "fileMatchRating": 0.8823529411764706
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blondie - One Way Or Another.mp3",
+        "key": "D",
+        "root": 2,
+        "mode": "major",
+        "scaleID": 2,
+        "artist": "Blondie",
+        "trackName": "One Way Or Another",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blond_Ish - Lonely Days (Hunter Game Remix).mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Blondish",
+        "trackName": "Lonely Days (Hunter Game Remix)",
+        "fileMatchRating": 0.9367088607594937
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blu Cantrell - Breathe (Video).mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Blu Cantrell",
+        "trackName": "Breathe (feat Sean Paul)",
+        "fileMatchRating": 0.7076923076923077
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blu Mar Ten - Into The Light (ft Airwalker).mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Blu Mar Ten",
+        "trackName": "Into The Light (feat Airwalker)",
+        "fileMatchRating": 0.9487179487179487
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blu Mar Ten - Love is the Devil.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Blu Mar Ten",
+        "trackName": "Love Is The Devil",
+        "fileMatchRating": 0.8518518518518519
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blu Mar Ten (feat. Jenni Potts) - The Fourth [FULL].mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Blu Mar Ten",
+        "trackName": "The Fourth (feat Jenni Potts)",
+        "fileMatchRating": 0.8192771084337349
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blu Mar Ten - Whisper (Feat. Kirsty Hawkshaw).mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Blu Mar Ten",
+        "trackName": "Whisper (feat Kirsty Hawkshaw)",
+        "fileMatchRating": 0.9135802469135802
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blue Boy - Remember Me (Original 12).mp3",
+        "key": "G#m",
+        "root": 8,
+        "mode": "minor",
+        "scaleID": 20,
+        "artist": "Blueboy",
+        "trackName": "Remember Me",
+        "fileMatchRating": 0.6666666666666666
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Blur - Girls And Boys.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Blur",
+        "trackName": "Girls And Boys",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Boards of Canada - Music Is Math.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Boards of Canada",
+        "trackName": "Music is Math",
+        "fileMatchRating": 0.9310344827586207
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Boards of Canada - Rue the Whirl.mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Boards of Canada",
+        "trackName": "Roygbiv",
+        "fileMatchRating": 0.6666666666666666
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Boards of Canada - Rue the Whirl.mp3.rootOgram.txt",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Boards of Canada",
+        "trackName": "Rue The Whirl",
+        "fileMatchRating": 0.75
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bob Marley & the Wailers - Get Up, Stand Up.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Bob Marley & The Wailers",
+        "trackName": "Get Up, Stand Up",
+        "fileMatchRating": 0.9459459459459459
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bob Marley - I Shot The Sheriff.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Bob Marley & The Wailers",
+        "trackName": "I Shot The Sheriff (Album version)",
+        "fileMatchRating": 0.6419753086419753
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bobby Womack - Across 110th Street.mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Bobby Womack",
+        "trackName": "Across 110th Street",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bodyrox - Yeah Yeah (D Ramirez Vocal Club Mix).mp3",
+        "key": "C",
+        "root": 0,
+        "mode": "major",
+        "scaleID": 0,
+        "artist": "Bodyrox",
+        "trackName": "Yeah Yeah (feat Luciana) (D Ramirez Vocal Club Mix)",
+        "fileMatchRating": 0.8631578947368421
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Booker T & the M G 's - Green Onions (Original : HQ audio).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Booker T & The MG's",
+        "trackName": "Green Onions",
+        "fileMatchRating": 0.6923076923076923
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bossman - Ayo.mp3",
+        "key": "G#m",
+        "root": 8,
+        "mode": "minor",
+        "scaleID": 20,
+        "artist": "Bossman",
+        "trackName": "Ayo",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Boys Noize - Yeah (Original).mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "Boys Noize",
+        "trackName": "Yeah",
+        "fileMatchRating": 0.7272727272727273
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brand Nubian - Don't Let It Go To Your Head.mp3",
+        "key": "Eb",
+        "root": 3,
+        "mode": "major",
+        "scaleID": 3,
+        "artist": "Brand Nubian",
+        "trackName": "Don't Let It Go To Your Head",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Breakbeat Era - Animal Machine.mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "Breakbeat Era",
+        "trackName": "Animal Machine",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Breakbeat Era - Bulletproof (U.N.K.L.E. Remix).mp3",
+        "key": "Bm",
+        "root": 11,
+        "mode": "minor",
+        "scaleID": 23,
+        "artist": "Breakbeat Era",
+        "trackName": "Bullitproof (Unkle Remix)",
+        "fileMatchRating": 0.7951807228915663
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Breakbeat Era - Past Life.mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Breakbeat Era",
+        "trackName": "Past Life",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Breaking News - Rush Hour (Quadrat Beat Remix).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Breaking News",
+        "trackName": "Rush Hour (Quadrat Beat Remix)",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Britney Spears - Toxic (Armand Van Helden Remix (Audio)).mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Britney Spears",
+        "trackName": "Toxic (Armand Van Helden Remix)",
+        "fileMatchRating": 0.9052631578947369
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brookes Brothers - Last Night.mp3",
+        "key": "Cm",
+        "root": 0,
+        "mode": "minor",
+        "scaleID": 12,
+        "artist": "Brookes Brothers",
+        "trackName": "Last Night",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brookes Brothers - Snowman.mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "Brookes Brothers",
+        "trackName": "Snowman",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brookes Brothers - Tear You Down HD.mp3",
+        "key": "Ebm",
+        "root": 3,
+        "mode": "minor",
+        "scaleID": 15,
+        "artist": "Brookes Brothers",
+        "trackName": "Tear You Down (Single)",
+        "fileMatchRating": 0.8285714285714286
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brother Ali-Tight Rope.mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Brother Ali",
+        "trackName": "Tight Rope",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Brother Ali - Victory! (Come Forward).mp3",
+        "key": "Am",
+        "root": 9,
+        "mode": "minor",
+        "scaleID": 21,
+        "artist": "Brother Ali",
+        "trackName": "Victory! (Come Forward)",
+        "fileMatchRating": 1
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Strawberry Letter 23 - The Brothers Johnson ( 12 Extended ).mp3",
+        "key": "Eb",
+        "root": 3,
+        "mode": "major",
+        "scaleID": 3,
+        "artist": "Brothers Johnson",
+        "trackName": "Strawberry Letter 23",
+        "fileMatchRating": 0.7640449438202247
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Bruce Springsteen - Tenth Avenue Freeze-Out.wmv.mp3",
+        "key": "F",
+        "root": 5,
+        "mode": "major",
+        "scaleID": 5,
+        "artist": "Bruce Springsteen",
+        "trackName": "Tenth Avenue Freeze Out",
+        "fileMatchRating": 0.9176470588235294
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Southern Light (Manul Mix).mp3",
+        "key": "Dm",
+        "root": 2,
+        "mode": "minor",
+        "scaleID": 14,
+        "artist": "BSN Posse",
+        "trackName": "Southern Light (Manul Remix)",
+        "fileMatchRating": 0.7619047619047619
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Busta Rhymes - Turn It Up instrumental.mp3",
+        "key": "Em",
+        "root": 4,
+        "mode": "minor",
+        "scaleID": 16,
+        "artist": "Busta Rhymes",
+        "trackName": "Fire It Up (Instrumental)",
+        "fileMatchRating": 0.75
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Busta Rhymes - Woo Hah!! Got You All In Check.mp3",
+        "key": "C",
+        "root": 0,
+        "mode": "major",
+        "scaleID": 0,
+        "artist": "Busta Rhymes",
+        "trackName": "Woo Hah!! (Got You All In Check) (feat Rampage)",
+        "fileMatchRating": 0.7956989247311828
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Busy Signal--Modern Day Slavery.mp3",
+        "key": "Gm",
+        "root": 7,
+        "mode": "minor",
+        "scaleID": 19,
+        "artist": "Busy Signal",
+        "trackName": "Modern Day Slavery",
+        "fileMatchRating": 0.9836065573770492
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/C C Music Factory - Gonna Make You Sweat (Everybody Dance Now) ft. Freedom Williams.mp3",
+        "key": "Bbm",
+        "root": 10,
+        "mode": "minor",
+        "scaleID": 22,
+        "artist": "C&C Music Factory",
+        "trackName": "Gonna Make You Sweat (Everybody Dance Now)",
+        "fileMatchRating": 0.8188976377952756
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Calvin Harris - Acceptable in the 80's.mp3",
+        "key": "E",
+        "root": 4,
+        "mode": "major",
+        "scaleID": 4,
+        "artist": "Calvin Harris",
+        "trackName": "Acceptable In The 80s",
+        "fileMatchRating": 0.8405797101449275
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Calvin Harris I'm Not Alone DEADMAU5 REMIX.mp3",
+        "key": "F#",
+        "root": 6,
+        "mode": "major",
+        "scaleID": 6,
+        "artist": "Calvin Harris",
+        "trackName": "I'm Not Alone (Deadmau5 Mix)",
+        "fileMatchRating": 0.6075949367088608
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Calyx & TeeBee - Elevate This Sound (Original Mix) (Amazing Quality).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Calyx",
+        "trackName": "Elevate This Sound (feat TeeBee)",
+        "fileMatchRating": 0.6122448979591837
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Calyx & Teebee   The Divide.mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Calyx",
+        "trackName": "The Divide (feat TeeBee)",
+        "fileMatchRating": 0.6666666666666666
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Calyx & TeeBee - Pure Gold (Ft. Kemo).mp3",
+        "key": "Fm",
+        "root": 5,
+        "mode": "minor",
+        "scaleID": 17,
+        "artist": "Calyx & Teebee",
+        "trackName": "Pure Gold (feat Kemo)",
+        "fileMatchRating": 0.8059701492537313
+    },
+    {
+        "file": "/Users/joel/Programming/node-key-analysis/music/keyFinder/Cameo - Word Up.mp3",
+        "key": "F#m",
+        "root": 6,
+        "mode": "minor",
+        "scaleID": 18,
+        "artist": "Cameo",
+        "trackName": "Word Up!",
+        "fileMatchRating": 0.9032258064516129
+    }
+]
