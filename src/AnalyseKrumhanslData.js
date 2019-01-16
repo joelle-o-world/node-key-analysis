@@ -9,15 +9,16 @@ class AnalyseKrumhanslData extends Writable {
   }
 
   _write(chunk, encoding, callback) {
-    var bestMatch = -1
-    var bestMatchScore = 0
-    for(var i in chunk) {
+    var bestMatch = chunk[0].scaleID
+    var bestMatchScore = chunk[0].score
+    for(var i=1; i<chunk.length; i++) {
       this.totals[chunk[i].scaleID] += chunk[i].score
       if(chunk[i].score > bestMatchScore) {
         bestMatch = chunk[i].scaleID
         bestMatchScore = chunk[i].score
       }
     }
+    this.bestMatchCounts[bestMatch]++
     callback()
   }
 }

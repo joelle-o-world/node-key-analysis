@@ -3,6 +3,7 @@ const wav = require("wav")
 const {Transform} = require("stream")
 const ProgressBar = require("progress")
 const Promise = require("bluebird")
+const path = require("path")
 
 function decode(file, progressReports, sampleRate=44100) {
   var ffmpegCommand = ffmpeg(file)
@@ -26,7 +27,7 @@ function decode(file, progressReports, sampleRate=44100) {
   if(progressReports) {
     ffmpegCommand.on("progress", function(prog) {
       if(!this.bar) {
-        this.bar = new ProgressBar(file+" :percent \t[:bar] ETA: :eta seconds ", {total: 100, width:50})
+        this.bar = new ProgressBar(path.basename(file)+" :percent \t[:bar] ETA: :eta seconds ", {total: 100, width:50})
       }
       this.bar.tick(prog.percent-(this.bar.curr || 0))
     })
