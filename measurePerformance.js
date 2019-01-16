@@ -1,13 +1,14 @@
 const fs = require("fs").promises
 const oldFs = require("fs")
 const path = require('path')
-const algorithm = "./src/estimateKey4.js"
+const algorithm = "./src/estimateKey5.js"
 const estimateKey = require(algorithm)
 const argv = require("minimist")(process.argv.slice(2))
+const printScaleID = require("./src/printScaleID.js")
 
 async function measurePerformance(examples) {
   if(!examples)
-    examples = JSON.parse(await fs.readFile("./exampleData3.json"))
+    examples = JSON.parse(await fs.readFile("./exampleData4.json"))
 
   examples = examples.filter(function(example) {
     if(!example.file) {
@@ -23,11 +24,13 @@ async function measurePerformance(examples) {
   var confusionMatrix = []
   for(var i=0; i<24; i++)
     confusionMatrix[i] = new Array(24).fill(0)
+  var differenceMatrix = {}
 
   var report = {
     date: new Date().toLocaleString(),
     algorithm: algorithm,
     nCorrect: 0,
+    nHalfCorrect: 0,
     nIncorrect: 0,
     nError: 0,
     errors: [],
@@ -35,7 +38,8 @@ async function measurePerformance(examples) {
     percentSuccessRate: undefined,
     totalProcessTime: 0,
     trackByTrack: [],
-    confusionMatrix: confusionMatrix
+    confusionMatrix: confusionMatrix,
+    differenceMatrix: differenceMatrix,
   }
 
   if(argv._[0])
@@ -53,9 +57,10 @@ async function measurePerformance(examples) {
       continue
     }
     if(!examples[i].checked) {
-      console.warn("skipped example because it has not been checked")
-      continue
+    //  console.warn("skipped example because it has not been checked")
+    //  continue
     }
+    console.log(examples[i])
     var startT = Date.now()
     var file = examples[i].file
     var trackReport = {
@@ -72,6 +77,7 @@ async function measurePerformance(examples) {
       var key = result.key
       fs.writeFile(file + ".rootOgram.txt", result.rootOGram)
 
+      trackReport.estimatedScaleID = result.scaleID
       trackReport.estimatedRoot = key
       trackReport.estimatedMode = result.mode
       if(result.estimate2)
@@ -82,11 +88,21 @@ async function measurePerformance(examples) {
 
       confusionMatrix[correctScaleID][result.scaleID]++
 
-      trackReport.correct = key == examples[i].root
+      trackReport.correct = result.scaleID == correctScaleID
+      trackReport.difference = (key-examples[i].root)
+      if(trackReport.difference < 0)
+        trackReport.difference += 12
+      trackReport.difference += " "+result.mode + " < " + examples[i].mode
+      differenceMatrix[trackReport.difference] = (differenceMatrix[trackReport.difference] || 0) + 1
+
+      trackReport.rootCorrect = key == examples[i].root
+      trackReport.modeCorrect = result.mode == examples[i].mode
       if(result.rootFoundDensity)
         trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
       if(trackReport.correct)
         report.nCorrect++
+      else if(trackReport.rootCorrect)
+        report.nHalfCorrect++
       else
         report.nIncorrect++
     } catch(e) {
@@ -104,20 +120,20 @@ async function measurePerformance(examples) {
 
     report.trackByTrack.push(trackReport)
     if(trackReport.correct)
-      console.log("Correct!")
+      console.log("\nCorrect!", printScaleID(result.scaleID))
     else
-      console.log("Incorrect!")
+      console.log("\nIncorrect!", printScaleID(result.scaleID)," (guess) /",printScaleID(correctScaleID), "(answer)")
     //console.log(trackReport)
 
 
     // (re)save report after each analysis
     report.nTotal = report.nCorrect + report.nIncorrect + report.nError
-    report.successRate = report.nCorrect/report.nTotal
+    report.successRate = (report.nCorrect + report.nHalfCorrect/2)/report.nTotal
     report.percentSuccessRate = (report.successRate * 100).toFixed(2)+"%"
     report.averageProcessTime = report.totalProcessTime / report.nTotal
 
 
-    var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+(cell.toString()||"-")).padStart(5)).join(""))
+    var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+(cell?cell.toString():"-")).padStart(5)).join(""))
     report.confusionMatrix = printedConfusionMatrix
     var outputPath = path.resolve("./performanceReports", reportName)
     var reportString = JSON.stringify(report, null, 4)
