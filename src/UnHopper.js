@@ -18,7 +18,7 @@ class UnHopper extends Transform {
       this.buffer[(this.writeHead+t)%this.buffer.length] += chunk.buffer[t]
     this.writeHead += this.hopSize
 
-    if(this.writeHead > this.hopSize) {
+    if(this.writeHead > this.hopSize) { // surely this is never false?
       var from = (this.writeHead-this.hopSize) % this.buffer.length
       var to = this.writeHead % this.buffer.length
 
