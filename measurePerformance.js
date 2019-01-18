@@ -36,6 +36,8 @@ async function measurePerformance(examples) {
     errors: [],
     successRate: undefined,
     percentSuccessRate: undefined,
+    mirexTotal: 0,
+    mirexPercentage: undefined,
     totalProcessTime: 0,
     trackByTrack: [],
     confusionMatrix: confusionMatrix,
@@ -97,6 +99,25 @@ async function measurePerformance(examples) {
 
       trackReport.rootCorrect = key == examples[i].root
       trackReport.modeCorrect = result.mode == examples[i].mode
+
+      // calculate mirex score
+      var dif = trackReport.estimatedRoot - trackReport.correctRoot
+      if(dif < 0)
+        dif += 12
+      console.log(dif, printScaleID(trackReport.estimatedScaleID), printScaleID(trackReport.correctScaleID))
+      trackReport.mirexScore = 0
+      if(trackReport.correct)
+        trackReport.mirexScore = 1
+      else if(trackReport.modeCorrect) {
+        if(dif == 7 || dif == 5)
+          trackReport.mirexScore = 0.5
+      } else if(trackReport.estimatedMode == "minor" && dif == 9)
+        trackReport.mirexScore = 0.3
+      else if(trackReport.estimatedMode == "major" && dif == 3)
+        trackReport.mirexScore = 0.3
+      else if (dif == 0)
+        trackReport.mirexScore = 0.2
+
       if(result.rootFoundDensity)
         trackReport.rootFoundDensity = (result.rootFoundDensity * 100).toFixed(2)+"%"
       if(trackReport.correct)
@@ -105,6 +126,7 @@ async function measurePerformance(examples) {
         report.nHalfCorrect++
       else
         report.nIncorrect++
+      report.mirexTotal += trackReport.mirexScore
     } catch(e) {
       console.log("\n", file, "error", e)
       trackReport.error = e
@@ -131,6 +153,7 @@ async function measurePerformance(examples) {
     report.successRate = (report.nCorrect + report.nHalfCorrect/2)/report.nTotal
     report.percentSuccessRate = (report.successRate * 100).toFixed(2)+"%"
     report.averageProcessTime = report.totalProcessTime / report.nTotal
+    report.mirexPercentage = (100*report.mirexTotal / report.nTotal).toFixed(2) + "%"
 
 
     var printedConfusionMatrix = confusionMatrix.map((row, iRow) => row.map((cell, iCol) => ((iCol==iRow?"*":" ")+(cell?cell.toString():"-")).padStart(5)).join(""))
