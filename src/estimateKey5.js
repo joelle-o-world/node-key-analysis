@@ -7,6 +7,7 @@ const Chromagram = require("./Chromagram")
 const ReduceTransients = require("./ReduceTransients.js")
 const KrumhanslCorrelation = require("./KrumhanslCorrelation")
 const AnalyseKrumhanslData = require("./AnalyseKrumhanslData")
+const printScaleID = require("./printScaleID.js")
 const config = require("./config.js")
 
 async function estimateKey(options) {
@@ -68,6 +69,7 @@ async function estimateKey(options) {
         key: root,
         mode: mode,
         scaleID: winningScaleID,
+        str: printScaleID(winningScaleID)
       })
     })
   })
